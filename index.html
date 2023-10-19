@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>DogParadise</title>
+</head>
+<body>
+    <header>
+        <div class="header-superior">
+            <div class="menu-contenedor">
+                <div class="logo">
+                    <img class="logo-dentro" src="./img/perro---logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html" id="selected"></a></li>
+                            <li><a href="#">Categorias
+                                    <span><img class="img-flecha" src="./img/down-chevron.png" alt=""></span>
+                                </a>
+                                <ul>
+                                    <li><a href="./pages/juguetes.html">Juguetes</a></li>
+                                    <li><a href="">Pretales</a></li>
+                                    <li><a href="#bank" class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Forma de Pago</a></li>
+                                    <li><a href="./pages/medidas.html">Talles</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#pie">Contacto</a></li>
+                            <li><a class="boton-cf" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultas Frecuentes</a></li>
+                            <li><a href="./pages/envios.html">Envios</a></li>
+                            <li><a href="#Nosotros">Nosotros</a></li>
+                        </ul>
+                        <form class="d-flex buscador" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="bottom-buscador" type="submit">Buscar</button>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+            <div class="carrito-compra">
+                <i class="fa-solid fa-cart-arrow-down">
+                    <div class="buy-card">
+                        <ul class="nav-buycard">
+                            <li>Imagen</li>
+                            <li>Nombre</li>
+                            <li>Precio</li>
+                            <li>Cantidad</li>
+                        </ul>
+                        <button>Vaciar Carrito</button>
+                    </div>
+                </i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="carrusel-portada">
+                <ul class="carrusel-ul">
+                    <li>
+                        <h1 class="carrusel-h1">Bienvenido a DogParadise</h1>
+                        <img class="carrusel-imagenp" src="./img/perro-portada.png" alt="">
+                        <img class="imagenes-carrusel" src="./img/portada4.jpg" alt="">
+                    </li>
+                    <li>
+                        <img class="imagenes-carrusel" src="./img/portada2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img class="imagenes-carrusel" src="./img/portada5.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="patita-intermedia">
+            <div class="division-lineal"></div>
+            <div class="division-lineal2"></div>
+        </section>
+        <section>
+            <h2 class="fondoh2">~ ~ Juguetes ~ ~</h2>
+            <div class="tarjetas-presentacion">
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-cover-unicornio.jpg"
+                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Cover Unicornio</p>
+                            <p>$ 6.100</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-cover-unicornio.jpg"
+                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Cover Unicornio</p>
+                            <p>$ 6.100</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-cover-unicornio.jpg"
+                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Cover Unicornio</p>
+                            <p>$ 6.100</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-frontback-celeste.jpg" alt="arnes frontback celeste">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Forntback Celeste</p>
+                            <p>$ 10.300</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-k9-roja.jpg" alt="arnes k9 rojo">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés K9 Rojo</p>
+                            <p>$ 8.250</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-k9-rosa.jpg" alt="arnes k9 rosa">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés K9 Rosa</p>
+                            <p>$ 8.250</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="patita-intermedia">
+            <div class="division-lineal"></div>
+            <div class="division-lineal2"></div>
+        </section>
+        <section>
+            <h2 class="fondoh2">~ ~ Arneses ~ ~</h2>
+            <div class="tarjetas-presentacion">
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-cover-unicornio.jpg"
+                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Cover Unicornio</p>
+                            <p>$ 6.100</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-cover-unicornio.jpg"
+                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Cover Unicornio</p>
+                            <p>$ 6.100</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-cover-unicornio.jpg"
+                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Cover Unicornio</p>
+                            <p>$ 6.100</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-frontback-celeste.jpg" alt="arnes frontback celeste">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés Forntback Celeste</p>
+                            <p>$ 10.300</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-k9-roja.jpg" alt="arnes k9 rojo">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés K9 Rojo</p>
+                            <p>$ 8.250</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure>
+                        <img src="./img/arnes-k9-rosa.jpg" alt="arnes k9 rosa">
+                    </figure>
+                    <div class="contenido">
+                        <h3>
+                            <p>Arnés K9 Rosa</p>
+                            <p>$ 8.250</p>
+                        </h3>
+                        <a type="button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal-producto"><p class="p-boton">Añadir al Carrito</p></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="patita-intermedia">
+            <div class="division-lineal"></div>
+            <div class="division-lineal2"></div>
+        </section>
+        <section id="Nosotros" class="acerca-nosotros">
+            <h2>Acerca de Nosotros</h2>
+            <h3>¡Bienvenidos a PetParadise!</h3>
+            <ol>
+                <li class="nosotros-lista-1">Desde hace cinco años, nos enorgullece ser tu compañero de confianza en el
+                    cuidado y bienestar de tus adorables mascotas.
+                    En PetParadise, sabemos lo importantes que son tus peludos amigos para ti, porque también lo son
+                    para nosotros.</li>
+                <li class="nosotros-lista-2">Nuestra pasión por los animales y nuestro compromiso con ofrecer productos
+                    de alta calidad nos han convertido en una fuente confiable para todos los amantes de las mascotas.
+                    Nos especializamos en proporcionar una amplia gama de productos y accesorios, cuidadosamente
+                    seleccionados para satisfacer las necesidades de tus fieles compañeros.</li>
+                <li class="nosotros-lista-3">Lo que nos distingue es nuestro excepcional servicio de envío y atención al
+                    cliente.
+                    Sabemos lo ocupado que puede ser tu día a día, por lo que hemos simplificado el proceso de compra y
+                    entrega para que puedas disfrutar de más tiempo con tus mascotas.
+                    Nuestro equipo está dedicado a brindarte la mejor experiencia de compra posible, ofreciendo
+                    asesoramiento experto y atención personalizada en cada paso del camino.</li>
+                <li class="nosotros-lista-4">En PetParadise, compartimos tu amor por los animales y estamos
+                    comprometidos a contribuir al bienestar de tus mascotas.
+                    Nos enorgullece ser parte de tu historia y esperamos seguir haciéndolo durante muchos años más.</li>
+                <li class="nosotros-lista-5">Gracias por confiar en nosotros para satisfacer las necesidades de tus
+                    mascotas.
+                    ¡Esperamos servirte y a tus adorables compañeros peludos en el futuro!</li>
+            </ol>
+        </section>
+        <section class="patita-intermedia">
+            <div class="division-lineal"></div>
+            <div class="division-lineal2"></div>
+        </section>
+        <section class="selecciones">
+            <div class="etiquetas">
+                <a href="/pages/envios.html" target="_blank"><img src="./img/delivery.png" alt="imagen de delivery"></a>
+                <h2>ENVÍOS GRATIS</h2>
+                <p>
+                    En compras superiores a $5000.
+                </p>
+            </div>
+            <div class="etiquetas">
+                <a href="./pages/cambio-devolucion.html" target="_blank"><img src="./img/return-box.png"
+                        alt="imagen de devolucion"></a>
+                <h2>DEVOLUCIONES / CAMBIOS</h2>
+                <p>
+                    En caso de defectos de fabricación o talle mal elegido se realiza el cambio o devolucipon del
+                    dinero.
+                </p>
+            </div>
+            <div class="etiquetas">
+                <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-contacto"
+                    data-bs-whatever="@mdo"><img src="./img/chat.png" alt="icono de conversacion de ayuda en linea"></a>
+                <h2>AYUDA EN LÍNEA</h2>
+                <p>
+                    Cualquier duda se responderá a la brevedad.
+                </p>
+            </div>
+        </section>
+        <section class="patita-intermedia">
+            <div class="division-lineal"></div>
+            <div class="division-lineal2"></div>
+        </section>
+        <section id="bank" class="contenedor-banco">
+            <div class="secc-banco">
+                <ol>
+                    <li><img src="./img/b-bancor.png" alt=""></li>
+                    <li><img src="./img/banco-balenco.png" alt=""></li>
+                    <li><img src="./img/banco-bersa.jpeg" alt=""></li>
+                    <li><img src="./img/banco-nacion.png" alt=""></li>
+                    <li><img src="./img/banco-provincia.png" alt=""></li>
+                    <li><img src="./img/banco-chubut.png" alt=""></li>
+                    <li><img src="./img/banco-hipotecario.png" alt=""></li>
+                    <li><img src="./img/banco-macro.png" alt=""></li>
+                    <li><img src="./img/banco-rosario.png" alt=""></li>
+                    <li><img src="./img/banco_galicia_logo.png" alt=""></li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div>
+                    <div class="modal-content modal-bank modal-dialog-scrollable">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Promociones Bancarias</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="promo-bank">
+                                <h2>Ahora 12, 6 y 3 cuotas</h2>
+                                <p>En productos seleccionados con Visa, American Express, Cabal, Tarjeta Shopping,
+                                    Cordobesa y Mastercard bancarias.</p>
+                                <div class="promo-bank__img">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/6d29bb40-e66c-11eb-aa09-51c2c1089ea8-m.svg"
+                                        alt="Ahora 12">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/c2311f10-efaa-11eb-9a80-1175871fb85a-m.svg"
+                                        alt="Ahora 6">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/b9782670-efaa-11eb-8e0d-6f4af49bf82e-m.svg"
+                                        alt="Ahora 3">
+                                </div>
+                            </div>
+                            <div class="divisor-bank"></div>
+                            <div class="promo-bank2">
+                                <h2><span>Mismo precio en hasta 6 cuotas*</span> con estas tarjetas</h2>
+                                <p>En productos seleccionados.</p>
+                                <div class="promo-bank__img2">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/a5f047d0-9be0-11ec-aad4-c3381f368aaf-m.svg"
+                                        alt="Visa">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/c9f71470-6f07-11ec-9b23-071a218bbe35-m.svg"
+                                        alt="Cabal">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/33ea00e0-571a-11e8-8364-bff51f08d440-m.svg"
+                                        alt="Tarjeta Shopping">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/5cc05a00-d012-11ea-be41-3936b95cb468-m.svg"
+                                        alt="Cencosud">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/751ea930-571a-11e8-9a2d-4b2bd7b1bf77-m.svg"
+                                        alt="Diners">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/d7e55980-f3be-11eb-8e0d-6f4af49bf82e-m.svg"
+                                        alt="Argencard">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/26fbb110-571c-11e8-95d8-631c1a9a92a9-m.svg"
+                                        alt="CMR">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/aa2b8f70-5c85-11ec-ae75-df2bef173be2-m.svg"
+                                        alt="Mastercard">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/fbf867c0-9108-11ed-87b1-fd4dd99fac51-m.svg"
+                                        alt="American Express">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/992bc350-f3be-11eb-826e-6db365b9e0dd-m.svg"
+                                        alt="Naranja">
+                                </div>
+                                <p>La cantidad de cuotas puede variar según la tarjeta.</p>
+                            </div>
+                            <div class="divisor-bank2"></div>
+                            <div class="promo-bank3">
+                                <h2><span>Mismo precio en hasta 6 cuotas</span> en estos bancos</h2>
+                                <p class="promo-bank3__p">En todo el sitio.</p>
+                                <div class="promo-bank__img3">
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/fe827370-f3be-11eb-8e0d-6f4af49bf82e-m.svg"
+                                            alt="HSBC access now">
+                                        <p class="promo-bank__img3__p">6 cuotas</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/6e4d1e10-1230-11eb-bbd0-1f079a571ae4-m.svg"
+                                            alt="HSBC powercard">
+                                        <p class="promo-bank__img3__p">6 cuotas</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/ba8b96a0-cd41-11ea-a668-0563a89e00fd-m.svg"
+                                            alt="Patagonia">
+                                        <p class="promo-bank__img3__p">3 cuotas</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/27764c60-ed7a-11ec-87df-cb682e3b026f-m.svg"
+                                            alt="Patagonia singular">
+                                        <p class="promo-bank__img3__p">3 cuotas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="modal fade" id="exampleModal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Para:</label>
+                                    <input class="form-control" type="email" name="direccionemail"
+                                        value="dogparadise@service.dgp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal-producto" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title" id="exampleModalLabel">Producto</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Por el momento las compras no se encuentran habilitadas, pruebe en otro momento.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
+                            <button type="button" class="btn btn-primary">Ver Carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cartel-cf">
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Consultas Frecuentes</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Promociones bancarias
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Conoce nuestras promociones bancarias desde <code><a href="#bank">*Promodiones bancarias</a></code> class. This is the
+                                        first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Cambios y devoluciones
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">En caso de cambio, DogParadise se hace cargo del costo del envío de la devolución, por única vez. El cliente deberá abonar el costo del nuevo envío. 
+                                        Si necesita otro cambio deberá abonar los dos envíos. Para mayor informacion puedes entrar desde aqui a <code><a href="./pages/cambio-devolucion.html" target="_blank">*Cambios y devoluciones</a></code>.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Como tomar medidas
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Puedes ver tabla de talles y como tomar medidas a tu mascota desde <code><a href="./pages/medidas.html" target="_blank">*Como tomar medidas</a></code> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer id="pie">
+        <div class="social">
+            <h2>Seguinos en nuestras redes sociales</h2>
+            <a class="icono-redes-a" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="icono-redes-a" href="#"><i class="bi bi-instagram"></i></a>
+            <a class="icono-redes-a" href="#"><i class="bi bi-whatsapp"></i></a>
+            <a class="icono-redes-a" href="#"><i class="bi bi-telegram"></i></a>
+            <a class="icono-redes-a" href="#"><i class="bi bi-twitter-x"></i></a>
+            <a class="icono-redes-a" href="#"><i class="bi bi-linkedin"></i></a>
+            <h3>Información:</h3>
+            <p><i class="bi bi-envelope-at"></i>Email:</p>
+            <a href="#bank">
+                <p class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                        class="bi bi-credit-card"></i>Promociones bancarias</p>
+            </a>
+            <p><i class="bi bi-clock"></i>Horarios de atencion:</p>
+            <p><i class="bi bi-phone"></i>Telefono:</p>
+        </div>
+        <div class="atajos-web">
+            <h2>~ ~ Mapa del Sitio ~ ~</h2>
+            <a href="./pages/medidas.html" target="_blank">Tabla de talles</a>
+            <a href="./pages/medidas.html" target="_blank">Como medir a tu mascota</a>
+            <a href="#bank" class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Formas
+                de pago</a>
+            <a href="./pages/envios.html">Envios</a>
+            <a href="./pages/cambio-devolucion.html" target="_blank">Cambios y devuluciones</a>
+            <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal-contacto" data-bs-whatever="@mdo">Atención al Cliente</a>
+        </div>
+        <div class="ubi-map">
+            <h2>Ubicacion <img src="./img/map.png" alt="icono de mapa"></h2>
+            <iframe class="mapita"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4035.3542879077877!2d-60.5009518261319!3d-31.73460691362467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1695143629747!5m2!1ses-419!2sar"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/24a43bd175.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

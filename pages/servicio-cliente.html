@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-superior">
+        <div class="menu-contenedor">
+            <div class="menu">
+                <nav>
+                    <div class="logo">
+                        <img class="logito-intento" src="./img/royal-canin.png" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="./index.html" id="selected"></a></li>
+                        <li><a href="./pages/categorias.html">Categorias
+                            <span ::after><img src="./img/down-chevron.png" alt="" width="17px"  height="17px"></span>
+                        </a>
+                            <ul>
+                                <li><a href="./pages/juguetes.html">Juguetes</a></li>
+                                <li><a href="">Pretales</a></li>
+                                <li><a href="./pages/metodo-de-pago.html">Forma de Pago</a></li>
+                                <li><a href="./pages/medidas.html">Talles</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#pie">Contacto</a></li>
+                        <li><a href="./pages/consultas-frecuentes.html">Consultas Frecuentes</a></li>
+                        <li><a href="./pages/envios.html">Envios</a></li>
+                        <li><a href="#Nosotros">Sobre Nosotros</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>SERVICIO AL CLIENTE - CONTACTE CON NOSOTROS</h2>
+        <h3>ENVIAR UN MENSAJE</h3>
+        <div class="clearfix">
+            <div>
+                <input type="hidden" id="id_contacto" value="2">
+                <pc class="form-grup">
+                    <label for="email">Correo electrónico</label>
+                    <input id="email" class="form-control grey validate" type="text" name="from" data-validate="isEmail" value="">
+                </pc>
+                <div class="form-group selector1">
+                    <label>Referencia de pedido</label>
+                    <input id="id_order" class="form-control grey" type="text" name="id_order" value="">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9">
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" class="form-control" name="message"></textarea>
+            </div>
+        </div>
+        <div class="submit">
+            <button id="submitMessage" type="submit" name="submitMessage">
+                <span>
+                    Enviar
+                </span>
+            </button>
+        </div>
+        </section>
+        <section class="selecciones">
+            <div>
+                <!--IMAGEN CORRESPONDIENTE-->
+                <a href="../pages/envios.html"><img src="../img/delivery.png" alt="imagen de delivery"></a>
+                <h2>ENVÍOS GRATIS</h2>
+                <p>
+                    En compras superiores a $5000.
+                </p>
+            </div>
+            <div>
+                <!--IMAGEN CORRESPONDIENTE-->
+                <a href="../pages/cambio-devolucion.html"><img src="../img/return-box.png" alt="imagen de devolucion"></a>
+                <h2>DEVOLUCIONES / CAMBIOS</h2>
+                <p>
+                    En caso de defectos de fabricación o talle mal elegido se realiza el cambio o devolucipon del dinero.
+                </p>
+            </div>
+            <div>
+                <!--IMAGEN CORRESPONDIENTE-->
+                <a href="../pages/servicio-cliente.html"><img src="../img/chat.png" alt="icono de conversacion de ayuda en linea"></a>
+                <h2>AYUDA EN LÍNEA</h2>
+                <p>
+                    Cualquier duda se responderá a la brevedad.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer id="pie">
+        <div class="social">
+            <h2>Seguinos en nuestras redes sociales</h2>
+            <a href=""><img src="../img/facebook.png" alt=""></a>
+            <a href=""><img src="../img/instagram.png" alt=""></a>
+            <a href=""><img src="../img/wsp.png" alt=""></a>
+            <!--ICONOS DE REDES-->
+            <h3>Información</h3>
+            <p><img src="../img/email.png" alt="icono de email"> Email: PetParadise@hotmail.net</p>
+            <p><img src="../img/credit-card.png" alt="icono de tarjeta de credito u debito"> Promociones bancarias</p>
+            <p><img src="../img/clock.png" alt="icono de reloj"> Horarios de atencion: 8:00 a 12:00 - 16:00 a 20:00</p>
+        </div>
+        <div class="atajos-web">
+            <h2>Mapa del Sitio</h2>
+            <a href="../pages/medidas.html">Tabla de talles</a><br>
+            <a href="../pages/medidas.html">Como medir a tu mascota</a><br>
+            <a href="../pages/metodo-de-pago.html">Medios de pago</a><br>
+            <a href="../pages/envios.html">Envios</a><br>
+            <a href="../pages/cambio-devolucion.html">Cambios y devuluciones</a><br>
+            <a href="../pages/servicio-cliente.html">Atención al Cliente</a>
+        </div>
+        <div class="ubi-map">
+            <h2>Ubicacion <img src="../img/map.png" alt="icono de mapa"></h2> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4035.3542879077877!2d-60.5009518261319!3d-31.73460691362467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1695143629747!5m2!1ses-419!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
