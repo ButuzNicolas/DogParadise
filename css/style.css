@@ -616,7 +616,6 @@ main {
 
 /*----------------------SECCIONES DE CARTELES----------------------*/
 .selecciones {
-    background-color: #cdffff;
     margin-top: 80px;
     margin-bottom: 80px;
     padding: 84px;
@@ -629,13 +628,14 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 85%;
+    width: 95%;
     height: 240px;
     margin: 20px 50px;
-    background: white;
+    background: #7cdaf9;
     padding: 25px;
     border-radius: 80px;
-    border: 1px solid #000;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
 }
 
 .selecciones div a {
@@ -647,11 +647,14 @@ main {
 
 .etiquetas h2 {
     padding-top: 12px;
-    color: #0074C7;
+    color: white;
     padding-bottom: 15px;
     font-family: 'Gabarito', sans-serif;
 }
-
+.selecciones div p{
+    color: black;
+    font-size: 18px;
+}
 .logito {
     margin-top: -7px;
 }
@@ -714,7 +717,7 @@ main {
 
 /*------------------FOOTER-------------------*/
 footer {
-    background-color: #f7f7f7;
+    background-color: #006691;
     padding: 40px 20px;
     margin-top: 194px;
     border-radius: 7px;
@@ -735,20 +738,22 @@ footer div {
 .social {
     width: 0.5fr;
     height: 359.4px;
-    border-right: solid #000;
-    border-left: solid black;
+    border-right: solid white;
+    border-left: solid white;
 }
 
 .social h2 {
+    color: white;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: 250px;
     margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .social i {
-    color: #000;
+    color: black;
     font-size: 25px;
 }
 
@@ -757,17 +762,20 @@ footer div {
 }
 
 .social h3 {
+    color: white;
     margin-top: 20px;
     margin-bottom: 12px;
+    text-decoration: underline;
 }
 
 .social p {
+    color: white;
     margin-bottom: 0px;
 }
 
 .social a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .social i {
@@ -787,6 +795,8 @@ footer div {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: 250px;
+    color: white;
+    text-decoration: underline;
 }
 .atajos-web{
     width: 1fr;
@@ -798,13 +808,13 @@ footer div {
     text-decoration: none;
     margin: 0px 100px 10px 100px;
     padding: 5px 0px 5px 0px;
-    background-color: #3192d8;
+    background-color: #2499c7;
     border-radius: 20px;
     color: white;
 }
 
 .atajos-web a:hover {
-    background: #A0BEF5;
+    background: #2499c7;
     color: #fff;
     transform: scale(1.02);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 5);
@@ -823,6 +833,8 @@ footer div {
 
 .ubi-map h2 {
     margin-bottom: 10px;
+    color: white;
+    text-decoration: underline;
 }
 
 .mapita {
@@ -832,8 +844,8 @@ footer div {
 }
 /*-------------------------------FIN DE FOOTER---------------------------*/
 /*---------------------------SECCION ENVIOS---------------------------*/
-.cuerpo-envios {
-    background-image: url(../img/envio-envio.jpg);
+.cuerpo-envios main {
+    background-image: url(../img/fondo-envios.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -846,7 +858,7 @@ footer div {
 
 .seccion-envios {
     width: 100%;
-    background-color: white;
+    background-color: #7cdaf9;
     height: 50%;
     border-radius: 200px;
     padding: 105px;
@@ -854,19 +866,28 @@ footer div {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    border-top: solid 6px white;
+    border-bottom: solid 6px white;
+}
+.seccion-envios div{
+    border-radius: 18px;
+    border-bottom: solid 3px white;
+    margin-bottom: 25px;
 }
 
 .seccion-envios h2 {
-    color: #0074C7;
-    margin-bottom: 20px;
+    color: #006691;
+    margin-bottom: 30px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-weight: 500px;
-    font-size: 35px;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
 .seccion-envios p {
+    color: #000;
     margin-bottom: 35px;
     margin-left: 100px;
     margin-right: 100px;
@@ -887,6 +908,7 @@ footer div {
     height: 460px;
     border-radius: 8px;
     margin-top: -55px;
+    border-top: solid 5px white;
 }
 
 .social-secundario {
