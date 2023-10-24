@@ -632,7 +632,7 @@ main {
     flex-direction: column;
     text-align: center;
     width: 95%;
-    height: 240px;
+    height: 260px;
     margin: 20px 50px;
     background: #cdb2d6;
     padding: 25px;
@@ -675,6 +675,8 @@ main {
     width: 1800px;
     height: 120px;
     padding: 30px;
+    margin-top: 200px;
+    margin-bottom: 120px;
     overflow: hidden;
     border-radius: 18px;
 }
@@ -721,7 +723,6 @@ main {
 footer {
     background-color: #006691;
     padding: 40px 20px;
-    margin-top: 194px;
     border-radius: 7px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -829,8 +830,8 @@ footer div {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: 250px;
-    border-left: solid black;
-    border-right: solid black;
+    border-left: solid white;
+    border-right: solid white;
 }
 
 .ubi-map h2 {
@@ -1281,6 +1282,9 @@ footer div {
     width: 950px;
     margin-left: 450px;
 }
+.modal-header{
+    background-color: #B695C0;
+}
 .modal-title{
     position: relative;
     left: 33%;
@@ -1388,7 +1392,7 @@ footer div {
     position: relative;
     height: 1px;
     width: 750px;
-    border: solid 1px rgba(0, 0, 0, 0.507);
+    border: solid 1px #B695C0;
     left: -165px;
     bottom: 35px;
 }
@@ -1396,9 +1400,12 @@ footer div {
     position: relative;
     height: 1px;
     width: 750px;
-    border: solid 1px rgba(0, 0, 0, 0.37);
+    border: solid 1px #B695C0;
     left: -165px;
     bottom: 40px;
+}
+.modal-footer button{
+    background-color: #B695C0;
 }
 
 
