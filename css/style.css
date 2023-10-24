@@ -381,8 +381,8 @@ main {
 }
 
 .division-lineal {
-    background: #6879da;
-    background-color: #6879da;
+    background: #B695C0;
+    background-color: #B695C0;
     width: 450px;
     height: 20px;
     -moz-border-radius: 0 50% / 0 100%;
@@ -401,8 +401,8 @@ main {
 }
 
 .division-lineal2 {
-    background: #6879da;
-    background-color: #6879da;
+    background: #B695C0;
+    background-color: #B695C0;
     width: 450px;
     height: 20px;
     -moz-border-radius: 0 50% / 0 100%;
@@ -425,7 +425,7 @@ main {
     font-style: italic;
     font-weight: 500px;
     font-size: 30px;
-    background: #E5EAFA;
+    background: #cdb2d6;
     margin-bottom: -20px;
     width: 1850px;
     height: 70px;
@@ -434,17 +434,20 @@ main {
     flex-direction: column;
     padding-bottom: 45px;
     position: relative;
+    border-start-start-radius: 18px;
+    border-start-end-radius: 18px;
 }
 
 .tarjetas-presentacion {
-    background: lightcyan;
+    background: #cdb2d6;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 1850px;
     display: flex;
     justify-content: space-between;
-    border-radius: 8px;
+    border-end-end-radius: 18px;
+    border-end-start-radius: 18px;
 }
 
 .tarjetas-presentacion h2 {
@@ -510,8 +513,8 @@ main {
     display: inline-block;
     padding: 10px;
     margin-top: 5px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
+    color: #006691;
+    border: 1px solid #006691;
     border-radius: 4px;
     transition: all 400ms ease;
     align-items: center;
@@ -521,7 +524,7 @@ main {
 }
 
 .card .contenido .p-boton:hover {
-    background: #2fb4cc;
+    background: #2499c7;
     color: white;
 }
 
@@ -544,7 +547,7 @@ main {
 
 .acerca-nosotros h2 {
     margin-bottom: 30px;
-    color: #0074C7;
+    color: #2499c7;
     text-align: center;
     font-family: 'DM Serif Display', serif;
     font-style: italic;
@@ -631,11 +634,11 @@ main {
     width: 95%;
     height: 240px;
     margin: 20px 50px;
-    background: #7cdaf9;
+    background: #cdb2d6;
     padding: 25px;
     border-radius: 80px;
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
 }
 
 .selecciones div a {
@@ -667,7 +670,7 @@ main {
 /*----------------------------SECCION BANCOS----------------------*/
 .contenedor-banco {
     margin: auto;
-    background-color: #E5EAFA;
+    background-color: #cdb2d6;
     align-items: center;
     width: 1800px;
     height: 120px;
@@ -685,8 +688,7 @@ main {
 }
 
 .secc-banco ol {
-    background-color: #E5EAFA;
-    background-color: #E5EAFA;
+    background-color: #cdb2d6;
     height: 100px;
     width: 1300px;
     font-style: none;
@@ -695,7 +697,7 @@ main {
 }
 
 .secc-banco ol li {
-    background-color: #E5EAFA;
+    background-color: #cdb2d6;
     width: 1560px;
     height: 700px;
     list-style: none;
@@ -706,7 +708,7 @@ main {
 }
 
 .secc-banco img {
-    background-color: #E5EAFA;
+    background-color: #cdb2d6;
     height: 60px;
     width: 200px;
     margin-left: 20px;
