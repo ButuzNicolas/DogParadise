@@ -3090,6 +3090,11 @@ footer div {
     .fondoh2 {
         width: 1345px;
     }
+    .tarjetas-presentacion{
+        grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+        grid-template-rows: 2;
+        justify-content: space-evenly;
+    }
     .division-lineal2{
         left: 16.4%;
     }
@@ -3127,6 +3132,595 @@ footer div {
         margin: 0 10px 10px 20px;
     }
 }
+@media screen and (max-width:1375px) {
+    .tarjetas-presentacion {
+        width: 1335px;
+    }
+    .fondoh2 {
+        width: 1335px;
+    }
+    .contenedor-banco{
+        width: 1335px;
+    }
+}
+@media screen and (max-width:1370px) {
+    .tarjetas-presentacion {
+        width: 1330px;
+    }
+    .fondoh2 {
+        width: 1330px;
+    }
+    
+    .contenedor-banco{
+        width: 1330px;
+    }
+}
+@media screen and (max-width:1365px) {
+    .tarjetas-presentacion {
+        width: 1325px;
+    }
+    .fondoh2 {
+        width: 1325px;
+    }
+    .nosotros-img{
+        left: 780px;
+    }
+    .selecciones{
+        margin-right: 90px;
+    }
+    .contenedor-banco{
+        width: 1325px;
+    }
+    .secc-banco ol li{
+        margin-left:-8px;
+        margin-right: 7%;
+    }
+    .atajos-web{
+        width: 370px;
+    }
+    .atajos-web h2{
+        left: 20px;
+    }
+    .atajos-web a{
+        margin: 0 10px 10px 10px;
+    }
+}
+@media screen and (max-width:1360px) {
+    .tarjetas-presentacion {
+        width: 1320px;
+    }
+    .fondoh2 {
+        width: 1320px;
+    }
+    .division-lineal2{
+        left: 16%;
+    }
+    .nosotros-img{
+        left: 770px;
+    }
+    .contenedor-banco{
+        width: 1320px;
+    }
+}
+@media screen and (max-width:1355px) {
+    .tarjetas-presentacion {
+        width: 1315px;
+    }
+    .fondoh2 {
+        width: 1315px;
+    }
+    .contenedor-banco{
+        width: 1315px;
+    }
+    .secc-banco ol li{
+        margin-left:-10px;
+        margin-right: 7%;
+    }
+}
+@media screen and (max-width:1350px) {
+    .tarjetas-presentacion {
+        width: 1310px;
+    }
+    .fondoh2 {
+        width: 1310px;
+    }
+    .division-lineal2{
+        left: 15.8%;
+    }
+    .contenedor-banco{
+        width: 1310px;
+    }
+    .secc-banco ol li{
+        margin-left:-12px;
+        margin-right: 7%;
+    }
+}
+@media screen and (max-width:1345px) {
+    .tarjetas-presentacion {
+        width: 1305px;
+    }
+    .fondoh2 {
+        width: 1305px;
+    }
+    .nosotros-img{
+        left: 760px;
+    }
+    .contenedor-banco{
+        width: 1305px;
+    }
+    .social{
+        width: 500px;
+    }
+    .social h2{
+        font-size: 28px;
+    }
+    .cono-redes-a{
+        margin-right: 20px;
+    }
+    .atajos-web h2{
+        font-size: 28px;
+        left: 40px;
+    }
+    .ubi-map h2{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:1340px) {
+    .tarjetas-presentacion {
+        width: 1300px;
+    }
+    .fondoh2 {
+        width: 1300px;
+    }
+    .division-lineal2{
+        left: 15.4%;
+    }
+    .nosotros-img{
+        height: 530px;
+        left: 765px;
+        bottom: 430px;
+    }
+    .selecciones{
+        grid-template-columns: 35% 55% 35%;
+    }
+    .contenedor-banco{
+        width: 1300px;
+    }
+    .secc-banco ol li{
+        margin-left:-16px;
+        margin-right: 7%;
+    }
+}
+@media screen and (max-width:1335px) {
+    .carrusel-portada{
+        width: 1240px;
+        height: 680px;
+    }
+    .carrusel-h1{
+        left: 60px;
+    }
+    .carrusel-imagenp{
+        left: 210px;
+    }
+    .carrusel-ul li{
+        margin-right: 14.5px;
+        margin-left: -35px;
+    }
+    .imag-carrusel1{
+        margin-left: 12px;
+        width: 1200px;
+        height: 660px;
+    }
+    .imag-carrusel2{
+        margin-left: -3px;
+        width: 1200px;
+        height: 660px;
+    }
+    .imag-carrusel3{
+        margin-left: -3px;
+        width: 1200px;
+        height: 660px;
+    }
+    .tarjetas-presentacion {
+        width: 1295px;
+    }
+    .fondoh2 {
+        width: 1295px;
+    }
+    .division-lineal2{
+        left: 15.4%;
+    }
+    .selecciones{
+        grid-template-columns: 85%;
+    }
+    .contenedor-banco{
+        width: 1295px;
+    }
+    .social{
+        width: 490px;
+    }
+    .social a:first-of-type{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:1330px) {
+    .imag-carrusel2{
+        margin-left: -4px;
+    }
+    .tarjetas-presentacion {
+        width: 1290px;
+    }
+    .fondoh2 {
+        width: 1290px;
+    }
+    .acerca-nosotros{
+        margin-left: 32.5px;
+    }
+    .division-lineal2{
+        left: 15.2%;
+    }
+    .contenedor-banco{
+        width: 1290px;
+    }
+}
+@media screen and (max-width:1325px) {
+    .imag-carrusel1{
+        width: 1195px;
+        margin-left: 18px;
+    }
+    .tarjetas-presentacion {
+        width: 1285px;
+    }
+    .fondoh2 {
+        width: 1285px;
+    }
+    .contenedor-banco{
+        width: 1285px;
+    }
+    .secc-banco ol li{
+        margin-left:-18px;
+        margin-right: 7%;
+    }
+    .social{
+        width: 470px;
+    }
+    .social h2{
+        text-align: start;
+    }
+    .social a:first-of-type{
+        margin-left: 15px;
+    }
+    .icono-redes-a{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1320px) {
+    .imag-carrusel2{
+        margin-left: -5px;
+    }
+    .tarjetas-presentacion {
+        width: 1280px;
+    }
+    .fondoh2 {
+        width: 1280px;
+    }
+    .contenedor-banco{
+        width: 1280px;
+    }
+}
+@media screen and (max-width:1315px) {
+    .tarjetas-presentacion {
+        width: 1275px;
+    }
+    .fondoh2 {
+        width: 1275px;
+    }
+    .division-lineal{
+        left: 50%;
+    }
+    .division-lineal2{
+        left: 14.8%;
+    }
+    .nosotros-img{
+        height: 480px;
+        bottom: 380px;
+        left: 780px;
+    }
+    .contenedor-banco{
+        width: 1275px;
+    }
+    .secc-banco ol li{
+        margin-left:-20px;
+        margin-right: 7%;
+    }
+}
+@media screen and (max-width:1310px) {
+    .tarjetas-presentacion {
+        justify-content: space-around;
+        width: 1270px;
+    }
+    .fondoh2 {
+        width: 1270px;
+    }
+    .division-lineal2{
+        left: 14.4%;
+    }
+    .contenedor-banco{
+        width: 1270px;
+    }
+    .secc-banco ol li{
+        margin-left:-22px;
+        margin-right: 7%;
+    }
+}
+@media screen and (max-width:1305px) {
+    .tarjetas-presentacion {
+        width: 1265px;
+    }
+    .fondoh2 {
+        width: 1265px;
+    }
+    .division-lineal2{
+        left: 14.4%;
+    }
+    .contenedor-banco{
+        width: 1265px;
+    }
+    .social{
+        width: 455px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .tarjetas-presentacion {
+        width: 1260px;
+    }
+    .fondoh2 {
+        width: 1260px;
+    }
+    .division-lineal2{
+        left: 14.2%;
+    }
+    .contenedor-banco{
+        width: 1260px;
+    }
+    .secc-banco{
+        animation: cambio-banco 35s infinite alternate linear;
+    }
+    .secc-banco img{
+        height: 50px;
+        width: 135px;
+    }
+}
+@media screen and (max-width:1295px) {
+    .imag-carrusel1{
+        margin-right: 48px;
+    }
+    .imag-carrusel2{
+        margin-left: -7px;
+    }
+    .tarjetas-presentacion {
+        width: 1255px;
+    }
+    .fondoh2 {
+        width: 1255px;
+    }
+    .acerca-nosotros{
+        margin-left: 31px;
+        height: 740px;
+    }
+    .nosotros-img{
+        width: 440px;
+        height: 580px;
+        bottom: 422px;
+        left: 670px;
+    }
+    .acerca-nosotros h2{
+        width: 500px;
+        left: 45px;
+    }
+    .acerca-nosotros h3{
+        width: 400px;
+        left: 115px;
+        margin-bottom: 120px;
+    }
+    .acerca-nosotros ol{
+        width: 800px;
+        padding: 0;
+    }
+    .nosotros-lista-1{
+        width: 550px;
+        height: 150px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+    .nosotros-lista-2{
+        height: 150px;
+        width: 660px;
+        margin-bottom: 15px;
+    }
+    .nosotros-lista-3{
+        height: 150px;
+        width: 660px;
+        margin-bottom: 15px;
+    }
+    .contenedor-banco{
+        width: 1255px;
+    }
+}
+@media screen and (max-width:1290px) {
+    .imag-carrusel1{
+        margin-left: 15px;
+        margin-right: 65px;
+    }
+    .imag-carrusel2{
+        margin-right: 55px;
+        margin-left: -18px;
+        width: 1190px;
+    }
+    .tarjetas-presentacion {
+        width: 1250px;
+    }
+    .fondoh2 {
+        width: 1250px;
+    }
+    .division-lineal2{
+        left: 13.8%;
+    }
+    .contenedor-banco{
+        width: 1250px;
+    }
+    .atajos-web{
+        width: 350px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .atajos-web h2{
+        left: 50px;
+    }
+    .atajos-web a{
+        margin: 0 10px 10px 20px;
+    }
+}
+@media screen and (max-width:1285px) {
+    .tarjetas-presentacion {
+        width: 1245px;
+    }
+    .fondoh2 {
+        width: 1245px;
+    }
+    .division-lineal2{
+        left: 13.8%;
+    }
+    .contenedor-banco{
+        width: 1245px;
+        border-left: solid 5px white;
+        border-right: solid 5px white;
+    }
+}
+@media screen and (max-width:1280px) {
+    .tarjetas-presentacion {
+        width: 1240px;
+    }
+    .fondoh2 {
+        width: 1240px;
+    }
+    .division-lineal2{
+        left: 13.4%;
+    }
+    .contenedor-banco{
+        width: 1240px;
+    }
+}
+@media screen and (max-width:1275px) {
+    .tarjetas-presentacion {
+        width: 1235px;
+    }
+    .fondoh2 {
+        width: 1235px;
+    }
+    .nosotros-img{
+        left: 650px;
+    }
+    .contenedor-banco{
+        width: 1235px;
+    }
+    .atajos-web{
+        width: 340px;
+    }
+    .atajos-web h2{
+        left: 38px;
+    }
+    .atajos-web a{
+        margin: 0 10px 10px 10px;
+    }
+}
+@media screen and (max-width:1270px) {
+    .carrusel-portada{
+        width: 1200px;
+        height: 620px;
+    }
+    .carrusel-ul li{
+        width: 1250px;
+        height: 400px;
+    }
+    
+    .imag-carrusel1{
+        margin-right: 70px;
+        margin-left: 16.5px;
+        height: 600px;
+        width: 1150px;
+    }
+    .imag-carrusel2{
+        height: 600px;
+        width: 1150px;
+    }
+    .imag-carrusel3{
+        height: 600px;
+        width: 1150px;
+    }
+    .tarjetas-presentacion {
+        width: 1230px;
+    }
+    .fondoh2 {
+        width: 1230px;
+    }
+    .division-lineal2{
+        left: 13%;
+    }
+    .contenedor-banco{
+        width: 1230px;
+    }
+    .secc-banco ol li{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width:1265px) {
+    .tarjetas-presentacion {
+        width: 1225px;
+    }
+    .fondoh2 {
+        width: 1225px;
+    }
+    .contenedor-banco{
+        width: 1225px;
+    }
+    .atajos-web{
+        width: 330px;
+    }
+}
+@media screen and (max-width:1260px) {
+    .tarjetas-presentacion {
+        width: 1220px;
+    }
+    .fondoh2 {
+        width: 1220px;
+    }
+    .contenedor-banco{
+        width: 1220px;
+    }
+}
+@media screen and (max-width:1255px) {
+    .tarjetas-presentacion {
+        width: 1215px;
+    }
+    .fondoh2 {
+        width: 1215px;
+    }
+    .contenedor-banco{
+        width: 1215px;
+    }
+    footer{
+        height: 850px;
+        display: grid;
+        grid-template-columns: 60% 60%;
+    }
+}
+
+
+
+
+
 
 
 
