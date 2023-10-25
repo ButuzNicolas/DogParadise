@@ -207,7 +207,23 @@ header div.menu-contenedor div.menu nav ul li a span {
     margin-bottom: 5px;
 }
 
-
+.icon__menu{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    width: 26px;
+    height: 100%;
+    display: none;
+    align-items: center;
+}
+#label__check{
+    width: 26px;
+    height: 100%;
+    display: none;
+}
+#check__menu{
+    display: none;
+}
 
 /*-------------FIN DE MENU------------*/
 
@@ -440,7 +456,7 @@ main {
 
 /*---------------------NOSOTROS--------------------*/
 .acerca-nosotros {
-    height: 530px;
+    height: 650px;
     width: 95%;
     margin: 100px 50px 60px 50px;
     background: 0;
@@ -464,7 +480,7 @@ main {
 }
 
 .acerca-nosotros h3 {
-    margin-bottom: 15px;
+    margin-bottom: 65px;
     font-family: 'DM Serif Display', serif;
     font-style: italic;
     font-weight: 500px;
@@ -477,54 +493,58 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: start;
+    text-align: start;
     margin-top: 35px;
 }
 
 .acerca-nosotros ol li {
-    text-align: center;
+    text-align: start;
     font-size: 15px;
     list-style: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nosotros-lista-1 {
-    height: 46px;
-    width: 1000px;
-    margin: 0px 160px 4px 350px;
+    height: 40px;
+    width: 920px;
+    margin: 20px 0px 24px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nosotros-lista-2 {
     height: 60px;
-    width: 1410px;
-    margin: 8px 160px 4px 350px;
+    width: 1000px;
+    margin: 8px 0px 24px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nosotros-lista-3 {
     height: 70px;
-    width: 1350px;
-    margin: 8px 160px 4px 350px;
+    width: 1000px;
+    margin: 8px 0px 24px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nosotros-lista-4 {
     height: 50px;
-    width: 1000px;
-    margin: 8px 160px 4px 350px;
+    width: 950px;
+    margin: 8px 0px 18px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nosotros-lista-5 {
     height: 50px;
-    width: 1300px;
-    margin: 8px 160px 4px 350px;
+    width: 600px;
+    margin: 8px 0px 4px 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nosotros-img{
-    display: none;
+    display: flex;
+    position: relative;
+    height: 600px;
+    bottom: 477px;
+    left: 1200px;
 }
 /*---------------------FIN DE NOSOTROS--------------------*/
 
@@ -1321,6 +1341,21 @@ footer div {
 
 
 /*---------------------------MEDIA QUERIS--------------------*/
+@media screen and (max-width:2000px) {
+    .menu label i{
+        display: none;
+        opacity: 0;
+    }
+    nav ul{
+        position: relative;
+        bottom: 25px;
+    }
+    nav ul li ul{
+        height: 220px;
+        left: 18px;
+    }
+}
+
 @media screen and (max-width:1890px){
     .social a:first-of-type{
         margin-left: 85px;
@@ -1346,51 +1381,19 @@ footer div {
     .division-lineal2{
         left: 25.6%;
     }
-    .nosotros-lista-1{
-        width: 920px;
-        margin: 0 170px 4px 330px;
-    }
-    .nosotros-lista-2{
-        width: 1330px;
-        margin: 8px 180px 4px 350px;
-    }
-    .nosotros-lista-3{
-        margin: 8px 195px 4px 350px;
-    }
-    .nosotros-lista-4{
-        width: 930px;
-        margin: 8px 200px 4px 350px;
-    }
-    .nosotros-lista-5{
-        margin: 8px 200px 4px 350px;
-    }
 }
 @media screen and (max-width:1858px) {
     .tarjetas-presentacion {
         width: 1818px;
     }
-
     .fondoh2 {
         width: 1818px;
-    }
-    .nosotros-lista-1{
-        margin: 0 195px 4px 330px;
-    }
-    .nosotros-lista-2{
-        margin: 8px 200px 4px 350px;
-    }
-    .nosotros-lista-3{
-        margin: 8px 200px 4px 350px;
-    }
-    .nosotros-lista-4{
-        margin: 8px 210px 4px 350px;
     }
 }
 @media screen and (max-width:1854px) {
     .tarjetas-presentacion {
         width: 1815px;
     }
-
     .fondoh2 {
         width: 1815px;
     }
@@ -1399,7 +1402,6 @@ footer div {
     .tarjetas-presentacion {
         width: 1805px;
     }
-
     .fondoh2 {
         width: 1805px;
     }
@@ -1411,24 +1413,8 @@ footer div {
     .tarjetas-presentacion {
         width: 1800px;
     }
-
     .fondoh2 {
         width: 1800px;
-    }
-    .nosotros-lista-1{
-        margin: 0 195px 4px 330px;
-    }
-    .nosotros-lista-2{
-        margin: 8px 215px 4px 350px;
-    }
-    .nosotros-lista-3{
-        margin: 8px 215px 4px 350px;
-    }
-    .nosotros-lista-4{
-        margin: 8px 235px 4px 350px;
-    }
-    .nosotros-lista-5{
-        margin: 8px 235px 4px 350px;
     }
 }
 @media screen and (max-width:1834px) {
@@ -1544,52 +1530,11 @@ footer div {
     .tarjetas-presentacion {
         width: 1760px;
     }
-
     .fondoh2 {
         width: 1760px;
     }
     .contenedor-banco{
         width: 1760px;
-    }
-    .acerca-nosotros{
-        height: 650px;
-    }
-    .acerca-nosotros h3{
-        margin-bottom: 90px;
-    }
-    .acerca-nosotros ol{
-        align-items: start;
-        text-align: start;
-    }
-    .acerca-nosotros ol li{
-        text-align: start;
-    }
-    .nosotros-lista-1{
-        height: 40px;
-        margin: 0 0px 14px 0px;
-    }
-    .nosotros-lista-2{
-        width: 1000px;
-        margin: 8px 0px 14px 0px;
-    }
-    .nosotros-lista-3{
-        width: 1000px;
-        margin: 8px 0px 20px 0px;
-    }
-    .nosotros-lista-4{
-        width: 930px;
-        margin: 8px 0px 8px 0px;
-    }
-    .nosotros-lista-5{
-        width: 600px;
-        margin: 8px 0px 4px 0px;
-    }
-    .nosotros-img{
-        display: flex;
-        position: relative;
-        height: 500px;
-        bottom: 402px;
-        left: 1200px;
     }
 }
 @media screen and (max-width:1795px) {
@@ -2234,6 +2179,125 @@ footer div {
     }
     .contenedor-banco{
         width: 1550px;
+    }
+}
+@media screen and (max-width:1585px) {
+    .tarjetas-presentacion {
+        width: 1545px;
+    }
+    .fondoh2 {
+        width: 1545px;
+    }
+    .division-lineal2{
+        left: 21%;
+    }
+    .nosotros-img{
+        left: 1025px;
+    }
+    .contenedor-banco{
+        width: 1545px;
+    }
+    .secc-banco ol li{
+        height: 200px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width:1581px) {
+    .tarjetas-presentacion {
+        width: 1540px;
+    }
+    .fondoh2 {
+        width: 1540px;
+    }
+    .contenedor-banco{
+        width: 1540px;
+    }
+    .social{
+        width: 512px;
+    }
+    .atajos-web a{
+        margin: 0 40px 10px 60px;
+        width: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px){
+    .menu label i{
+        display: block;
+        opacity: 1;
+    }
+    .logo{
+        left: 600px;
+        top: 5px;
+    }
+    .logo-dentro{
+        width: 70px;
+        height: 70px;
+    }
+    nav > ul{
+        flex-direction: column;
+        background-color: #023877;
+        position: fixed;
+        left: 0;
+        top: 70px;
+        width: 100%;
+        height: 0px;
+        transition: all 300ms ease;
+        z-index: 100;
+        opacity: 0;
+        visibility: hidden;
+    }
+    nav ul li{
+        position: relative;
+        right: 450px;
+    }
+    nav > ul > li > a{
+        width: 730px;
+    }
+    nav > ul > li > a:hover{
+        transform: scale(1);
+        border-radius: 20px;
+    }
+    nav ul li ul{
+        left: 90px;
+    }
+    nav > ul > li:hover ul{
+        top: 50px;
+    }
+    nav > ul > li:first-child > a{
+        background-position: 348px;
+        border-radius: 20px;
+    }
+    #selected{
+        transform: scale(1);
+    }
+    #label__check{
+        display: block;
+    }
+    .icon__menu{
+        display: flex;
+        font-size: 40px;
+        position: relative;
+        top: 12.5px;
+        right: 40px;
+    }
+    #check__menu:checked ~ nav > ul{
+        height: 330px;
+        visibility: visible;
+        opacity: 1;
     }
 }
 /*-----------------------FIN DE MEDIA QUERIS--------------------*/
