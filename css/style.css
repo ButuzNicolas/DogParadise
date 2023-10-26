@@ -2056,7 +2056,6 @@ footer div {
         width: 1600px;
         display: grid;
         grid-template-columns: 19% 19% 19% 19% 19%;
-        *grid-template-rows: 0;
         justify-content: space-evenly;
     }
     .card{
@@ -3713,11 +3712,120 @@ footer div {
     footer{
         height: 850px;
         display: grid;
-        grid-template-columns: 60% 60%;
+        grid-template-columns: 48.5% 48.5%;
+        justify-content: space-around;
+    }
+    .social{
+        margin-left: 18px;
+        border: solid 3px white;
+        width: 580px;
+    }
+    .social h2{
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .social a:first-of-type{
+        margin-left: 85px;
+    }
+    .atajos-web{
+        margin-right: -20px;
+        width: 580px;
+        border: solid 3px white;
+    }
+    .atajos-web h2{
+        text-align: center;
+        margin-bottom: 19.5px;
+        left: -8px;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 125px;
+    }
+    .ubi-map{
+        border-top: solid 3px white;
+        width: 1210px;
+    }
+    .ubi-map h2{
+        margin-bottom: 20px;
+    }
+    .mapita{
+        width: 100%;
     }
 }
-
-
+@media screen and (max-width:1250px) {
+    .tarjetas-presentacion {
+        width: 1210px;
+    }
+    .fondoh2 {
+        width: 1210px;
+    }
+    .contenedor-banco{
+        width: 1210px;
+    }
+    .social{
+        margin-left: 17px;
+    }
+    .atajos-web{
+        margin-right: -18px;
+    }
+    .ubi-map{
+        width: 1200px;
+    }
+}
+@media screen and (max-width:1245px) {
+    .tarjetas-presentacion {
+        width: 1205px;
+    }
+    .fondoh2 {
+        width: 1205px;
+    }
+    .division-lineal2{
+        left: 12.5%;
+    }
+    .contenedor-banco{
+        width: 1205px;
+    }
+    .social{
+        margin-left: 10px;
+    }
+    .ubi-map{
+        width: 1190px;
+    }
+}
+@media screen and (max-width:1240px) {
+    .tarjetas-presentacion {
+        width: 1200px;
+    }
+    .fondoh2 {
+        width: 1200px;
+    }
+    .tarjetas-presentacion{
+        justify-content: space-evenly;
+    }
+    .acerca-nosotros{
+        height: 1300px;
+    }
+    .nosotros-lista-3{
+        height: 180px;
+        width: 600px;
+    }
+    .nosotros-lista-4{
+        width: 600px;
+        height: 100px;
+    }
+    .contenedor-banco{
+        width: 1200px;
+    }
+    .secc-banco ol li{
+        margin-left: 2.3%;
+        margin-right: 1%;
+    }
+    .social{
+        margin-left: 0px;
+    }
+    .ubi-map{
+        width: 1180px;
+    }
+}
 
 
 
