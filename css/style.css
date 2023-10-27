@@ -6198,10 +6198,10 @@ footer div {
 }
 @media screen and (max-width:880px) {
     .logo{
-        left: 760px;
+        left: 750px;
     }
     nav ul li{
-        right: 540px;
+        right: 536px;
     }
     nav > ul > li > a{
         width: 870px;
@@ -6291,11 +6291,11 @@ footer div {
         width: 840px;
     }
     .secc-banco ol li:first-of-type{
-        margin-left: -30px;
+        margin-left: -34px;
     }
     .secc-banco ol li{
-        margin-left: 3.03%;
-        margin-right: -16px;
+        margin-left: 4.02%;
+        margin-right: -32px;
     }
     .social a:first-of-type{
         margin-left: 30%;
@@ -6304,87 +6304,1683 @@ footer div {
         margin: 0 50px 10px 19.2%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 720px){
-    .menu label i{
-        display: block;
-        opacity: 1;
-    }
+@media screen and (max-width:864px) {
     .logo{
-        left: 600px;
-        top: 5px;
-    }
-    .logo-dentro{
-        width: 70px;
-        height: 70px;
-    }
-    nav > ul{
-        flex-direction: column;
-        background-color: #023877;
-        position: fixed;
-        left: 0;
-        top: 70px;
-        width: 100%;
-        height: 0px;
-        transition: all 300ms ease;
-        z-index: 100;
-        opacity: 0;
-        visibility: hidden;
+        left: 740px;
     }
     nav ul li{
-        position: relative;
-        right: 450px;
+        right: 524px;
     }
     nav > ul > li > a{
-        width: 730px;
+        width: 850px;
     }
-    nav > ul > li > a:hover{
-        transform: scale(1);
-        border-radius: 20px;
+    .carrusel-portada{
+        width: 820px;
+        height: 520px;
     }
-    nav ul li ul{
-        left: 90px;
+    .carrusel-h1{
+        font-size: 38px;
     }
-    nav > ul > li:hover ul{
-        top: 50px;
+    .imag-carrusel1{
+        width: 778px;
+        height: 500px;
+        margin-left: 14px;
+        margin-right: 30px;
     }
-    nav > ul > li:first-child > a{
-        background-position: 348px;
-        border-radius: 20px;
+    .imag-carrusel2{
+        margin-right: 20px;
+        margin-left: 14px;
+        height: 500px;
+        width: 776px;
     }
-    #selected{
-        transform: scale(1);
+    .imag-carrusel3{
+        margin-right: 10px;
+        margin-left: 30px;
+        height: 500px;
+        width: 774px;
     }
-    #label__check{
-        display: block;
+    .carrusel-imagenp{
+        height: 240px;
+        width: 240px;
+        left: 20px;
     }
-    .icon__menu{
-        display: flex;
-        font-size: 40px;
-        position: relative;
-        top: 12.5px;
-        right: 40px;
+    .tarjetas-presentacion {
+        width: 820px;
     }
-    #check__menu:checked ~ nav > ul{
-        height: 330px;
-        visibility: visible;
-        opacity: 1;
+    .card{
+        left: -16px;
+    }
+    .fondoh2 {
+        width: 820px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 420px;
+    }
+    .division-lineal2{
+        bottom: -64px;
+        left: 19%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 22px;
+        height: 960px;
+    }
+    .acerca-nosotros h2{
+        left: 116px;
+    }
+    .acerca-nosotros h3{
+        left: 172px;
+        margin-bottom: 98px;
+    }
+    .nosotros-lista-1{
+        width: 640px;
+        margin: 30px 0px 24px 46px;
+    }
+    .nosotros-lista-2{
+        width: 680px;
+        margin: 8px 0px 24px 28px;
+    }
+    .nosotros-lista-3{
+        width: 680px;
+        margin: 8px 0px 24px 30px;
+    }
+    .nosotros-lista-4{
+        width: 640px;
+        margin: 8px 0px 18px 48px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 72px;
+    }
+    .nosotros-img{
+        left: 240px;
+    }
+    .selecciones {
+        margin-left: 14px;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 820px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: 8px;
+    }
+    .secc-banco ol li{
+        margin-left: 7.24%;
+        margin-right: -20px;
+    }
+    .social a:first-of-type{
+        margin-left: 30%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 19.2%;
     }
 }
+@media screen and (max-width:844px) {
+    .logo{
+        left: 720px;
+    }
+    nav ul li{
+        right: 512px;
+    }
+    nav > ul > li > a{
+        width: 830px;
+    }
+    .carrusel-portada{
+        width: 790px;
+        height: 520px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+    }
+    .imag-carrusel1{
+        width: 750px;
+        height: 500px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 20px;
+        margin-left: 13px;
+        height: 500px;
+        width: 750px;
+    }
+    .imag-carrusel3{
+        margin-right: 10px;
+        margin-left: 26px;
+        height: 500px;
+        width: 750px;
+    }
+    .carrusel-imagenp{
+        height: 240px;
+        width: 240px;
+        left: 50px;
+    }
+    .tarjetas-presentacion {
+        width: 800px;
+    }
+    .card{
+        left: -16px;
+    }
+    .fondoh2 {
+        width: 800px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 410px;
+    }
+    .division-lineal2{
+        bottom: -64px;
+        left: 18%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1030px;
+    }
+    .acerca-nosotros h2{
+        left: 108px;
+    }
+    .acerca-nosotros h3{
+        left: 166px;
+        margin-bottom: 130px;
+    }
+    .nosotros-lista-1{
+        width: 626px;
+        margin: 30px 0px 24px 44px;
+    }
+    .nosotros-lista-2{
+        width: 580px;
+        margin: 8px 0px 24px 70px;
+    }
+    .nosotros-lista-3{
+        width: 560px;
+        margin: 8px 0px 24px 80px;
+    }
+    .nosotros-lista-4{
+        width: 572px;
+        margin: 8px 0px 18px 70px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 60px;
+    }
+    .nosotros-img{
+        top: 148px;
+        left: 230px;
+    }
+    .selecciones {
+        padding: 0px 70px;
+        margin-left: 14px;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 800px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: 8px;
+    }
+    .secc-banco ol li{
+        margin-left: 7.24%;
+        margin-right: -20px;
+    }
+    .social a:first-of-type{
+        margin-left: 29.4%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 19.2%;
+    }
+}
+@media screen and (max-width:824px) {
+    .logo{
+        left: 700px;
+    }
+    nav ul li{
+        right: 496px;
+    }
+    nav > ul > li > a{
+        width: 800px;
+    }
+    .carrusel-portada{
+        width: 770px;
+        height: 520px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+    }
+    .imag-carrusel1{
+        width: 730px;
+        height: 500px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 20px;
+        margin-left: 13px;
+        height: 500px;
+        width: 730px;
+    }
+    .imag-carrusel3{
+        margin-right: 10px;
+        margin-left: 22px;
+        height: 500px;
+        width: 730px;
+    }
+    .carrusel-imagenp{
+        height: 240px;
+        width: 240px;
+        left: 50px;
+    }
+    .tarjetas-presentacion {
+        width: 780px;
+    }
+    .card{
+        left: -16px;
+    }
+    .fondoh2 {
+        width: 780px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 400px;
+    }
+    .division-lineal2{
+        bottom: -64px;
+        left: 17.2%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1030px;
+    }
+    .acerca-nosotros h2{
+        left: 98px;
+    }
+    .acerca-nosotros h3{
+        left: 158px;
+        margin-bottom: 130px;
+    }
+    .nosotros-lista-1{
+        width: 626px;
+        margin: 30px 0px 24px 38px;
+    }
+    .nosotros-lista-2{
+        width: 580px;
+        margin: 8px 0px 24px 60px;
+    }
+    .nosotros-lista-3{
+        width: 560px;
+        margin: 8px 0px 24px 72px;
+    }
+    .nosotros-lista-4{
+        width: 572px;
+        margin: 8px 0px 18px 62px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 52px;
+    }
+    .nosotros-img{
+        top: 148px;
+        left: 220px;
+    }
+    .selecciones {
+        padding: 0px 40px;
+        margin-left: 18px;
+    }
+    .etiquetas{
+        width: 520px;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 780px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -12px;
+    }
+    .secc-banco ol li{
+        margin-left: 7%;
+        margin-right: -20px;
+    }
+    .social a:first-of-type{
+        margin-left: 29.2%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 19%;
+    }
+}
+@media screen and (max-width:805px) {
+    .logo{
+        left: 676px;
+    }
+    nav ul li{
+        right: 486px;
+    }
+    nav > ul > li > a{
+        width: 780px;
+    }
+    .carrusel-portada{
+        width: 750px;
+        height: 520px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+    }
+    .imag-carrusel1{
+        width: 712px;
+        height: 500px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 20px;
+        margin-left: 13px;
+        height: 500px;
+        width: 708px;
+    }
+    .imag-carrusel3{
+        margin-right: 10px;
+        margin-left: 22px;
+        height: 500px;
+        width: 716px;
+    }
+    .carrusel-imagenp{
+        height: 200px;
+        width: 200px;
+        left: 80px;
+    }
+    .tarjetas-presentacion {
+        width: 760px;
+    }
+    .card{
+        left: -30px;
+    }
+    .fondoh2 {
+        width: 760px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 396px;
+    }
+    .division-lineal2{
+        bottom: -68px;
+        left: 16.2%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros h2{
+        left: 88px;
+    }
+    .acerca-nosotros h3{
+        left: 140px;
+        margin-bottom: 200px;
+    }
+    .nosotros-lista-1{
+        width: 560px;
+        margin: 30px 0px 24px 58px;
+    }
+    .nosotros-lista-2{
+        width: 500px;
+        margin: 8px 0px 24px 94px;
+    }
+    .nosotros-lista-3{
+        width: 500px;
+        margin: 8px 0px 24px 90px;
+    }
+    .nosotros-lista-4{
+        width: 520px;
+        margin: 8px 0px 18px 82px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 44px;
+    }
+    .nosotros-img{
+        top: 188px;
+        left: 212px;
+    }
+    .selecciones {
+        padding: 0px 40px;
+        margin-left: 18px;
+    }
+    .etiquetas{
+        width: 520px;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 760px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -18px;
+    }
+    .secc-banco ol li{
+        margin-left: 4%;
+        margin-right: -18px;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 28%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 18.4%;
+    }
+}
+@media screen and (max-width:784px) {
+    .logo{
+        left: 664px;
+    }
+    nav ul li{
+        right: 472px;
+    }
+    nav > ul > li > a{
+        width: 760px;
+    }
+    .carrusel-portada{
+        width: 738px;
+        height: 500px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+    }
+    .imag-carrusel1{
+        width: 700px;
+        height: 480px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 20px;
+        margin-left: 13px;
+        height: 480px;
+        width: 696px;
+    }
+    .imag-carrusel3{
+        margin-right: 10px;
+        margin-left: 22px;
+        height: 480px;
+        width: 700px;
+    }
+    .carrusel-imagenp{
+        height: 200px;
+        width: 200px;
+        left: 80px;
+    }
+    .tarjetas-presentacion {
+        width: 740px;
+    }
+    .card{
+        left: -30px;
+    }
+    .fondoh2 {
+        width: 740px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 380px;
+    }
+    .division-lineal2{
+        bottom: -66px;
+        left: 15.8%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros h2{
+        left: 78px;
+    }
+    .acerca-nosotros h3{
+        left: 130px;
+        margin-bottom: 200px;
+    }
+    .nosotros-lista-1{
+        width: 560px;
+        margin: 30px 0px 24px 48px;
+    }
+    .nosotros-lista-2{
+        width: 500px;
+        margin: 8px 0px 24px 80px;
+    }
+    .nosotros-lista-3{
+        width: 500px;
+        margin: 8px 0px 24px 80px;
+    }
+    .nosotros-lista-4{
+        width: 520px;
+        margin: 8px 0px 18px 70px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 34px;
+    }
+    .nosotros-img{
+        top: 188px;
+        left: 200px;
+    }
+    .selecciones {
+        padding: 0px 40px;
+        margin-left: 18px;
+    }
+    .etiquetas{
+        width: 520px;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 740px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -18px;
+    }
+    .secc-banco ol li{
+        margin-left: 3.6%;
+        margin-right: -18px;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 28%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 18.4%;
+    }
+}
+@media screen and (max-width:765px) {
+    .logo{
+        left: 646px;
+    }
+    nav ul li{
+        right: 464px;
+    }
+    nav > ul > li > a{
+        width: 748px;
+    }
+    .carrusel-portada{
+        width: 720px;
+        height: 500px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+    }
+    .imag-carrusel1{
+        width: 682px;
+        height: 480px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 20px;
+        margin-left: 13px;
+        height: 480px;
+        width: 678px;
+    }
+    .imag-carrusel3{
+        margin-right: 10px;
+        margin-left: 22px;
+        height: 480px;
+        width: 682px;
+    }
+    .carrusel-imagenp{
+        height: 200px;
+        width: 200px;
+        left: 80px;
+    }
+    .tarjetas-presentacion {
+        width: 720px;
+    }
+    .card{
+        left: -30px;
+    }
+    .fondoh2 {
+        width: 720px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 370px;
+    }
+    .division-lineal2{
+        bottom: -64px;
+        left: 15%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros h2{
+        left: 62px;
+    }
+    .acerca-nosotros h3{
+        left: 116px;
+        margin-bottom: 200px;
+    }
+    .nosotros-lista-1{
+        width: 560px;
+        margin: 30px 0px 24px 40px;
+    }
+    .nosotros-lista-2{
+        width: 500px;
+        margin: 8px 0px 24px 70px;
+    }
+    .nosotros-lista-3{
+        width: 500px;
+        margin: 8px 0px 24px 72px;
+    }
+    .nosotros-lista-4{
+        width: 520px;
+        margin: 8px 0px 18px 60px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 22px;
+    }
+    .nosotros-img{
+        top: 188px;
+        left: 190px;
+    }
+    .selecciones {
+        padding: 0px 20px;
+        margin-left: 18px;
+    }
+    .etiquetas{
+        width: 520px;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 720px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -18px;
+    }
+    .secc-banco ol li{
+        margin-left: 3.2%;
+        margin-right: -18px;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 27%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 19%;
+    }
+}
+@media screen and (max-width:744px) {
+    .logo{
+        left: 626px;
+    }
+    nav ul li{
+        right: 452px;
+    }
+    nav > ul > li > a{
+        width: 728px;
+    }
+    .carrusel-portada{
+        width: 700px;
+        height: 500px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+        left: 30px;
+    }
+    .imag-carrusel1{
+        width: 662px;
+        height: 480px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 20px;
+        margin-left: 13px;
+        height: 480px;
+        width: 658px;
+    }
+    .imag-carrusel3{
+        margin-right: 10px;
+        margin-left: 22px;
+        height: 480px;
+        width: 670px;
+    }
+    .carrusel-imagenp{
+        height: 200px;
+        width: 200px;
+        left: 80px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 36% 36%;
+        width: 700px;
+    }
+    .fondoh2 {
+        width: 700px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 360px;
+    }
+    .division-lineal2{
+        bottom: -60px;
+        left: 13%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros h2{
+        left: 52px;
+    }
+    .acerca-nosotros h3{
+        left: 110px;
+        margin-bottom: 200px;
+    }
+    .nosotros-lista-1{
+        width: 560px;
+        margin: 30px 0px 24px 34px;
+    }
+    .nosotros-lista-2{
+        width: 500px;
+        margin: 8px 0px 24px 64px;
+    }
+    .nosotros-lista-3{
+        width: 500px;
+        margin: 8px 0px 24px 60px;
+    }
+    .nosotros-lista-4{
+        width: 520px;
+        margin: 8px 0px 18px 50px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 14px;
+    }
+    .nosotros-img{
+        top: 188px;
+        left: 180px;
+    }
+    .selecciones {
+        padding: 0;
+        margin-left: 18px;
+    }
+    .etiquetas{
+        width: 80%;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 700px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -23px;
+    }
+    .secc-banco ol li{
+        margin-left: 2.8%;
+        margin-right: -18px;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 26.4%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 19%;
+    }
+}
+@media screen and (max-width:722px) {
+    .logo{
+        left: 606px;
+    }
+    nav ul li{
+        right: 440px;
+    }
+    nav > ul > li > a{
+        width: 710px;
+    }
+    .carrusel-portada{
+        width: 660px;
+        height: 500px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+        left: 30px;
+    }
+    .imag-carrusel1{
+        width: 623px;
+        height: 480px;
+        margin-left: 8px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 22px;
+        margin-left: 13px;
+        height: 480px;
+        width: 619px;
+    }
+    .imag-carrusel3{
+        margin-right: 12px;
+        margin-left: 22px;
+        height: 480px;
+        width: 620px;
+    }
+    .carrusel-imagenp{
+        height: 200px;
+        width: 200px;
+        left: 80px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 38% 38%;
+        width: 680px;
+    }
+    .fondoh2 {
+        width: 680px;
+    }
+    .division-lineal{
+        width: 250px;
+        height: 14px;
+        left: 350px;
+    }
+    .division-lineal2{
+        bottom: -62px;
+        left: 12%;
+        width: 250px;
+        height: 14px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros h2{
+        left: 52px;
+    }
+    .acerca-nosotros h3{
+        left: 110px;
+        margin-bottom: 200px;
+    }
+    .nosotros-lista-1{
+        width: 560px;
+        margin: 30px 0px 24px 34px;
+    }
+    .nosotros-lista-2{
+        width: 500px;
+        margin: 8px 0px 24px 64px;
+    }
+    .nosotros-lista-3{
+        width: 500px;
+        margin: 8px 0px 24px 60px;
+    }
+    .nosotros-lista-4{
+        width: 520px;
+        margin: 8px 0px 18px 50px;
+    }
+    .nosotros-lista-5{
+        margin: 8px 0 4px 14px;
+    }
+    .nosotros-img{
+        top: 188px;
+        left: 180px;
+    }
+    .selecciones {
+        padding: 0;
+        margin-left: 18px;
+    }
+    .etiquetas{
+        width: 80%;
+    }
+    .selecciones div{
+        margin: 20px 0px;
+    }
+    .contenedor-banco{
+        width: 680px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -26px;
+    }
+    .secc-banco ol li{
+        margin-left: 7.8px;
+        margin-right: 4px;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 26%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 19%;
+    }
+}
+@media screen and (max-width:702px) {
+    .logo{
+        left: 580px;
+    }
+    nav ul li{
+        right: 424px;
+    }
+    nav > ul > li > a{
+        width: 680px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 40% 40%;
+        width: 660px;
+    }
+    .card{
+        margin-left: 12px;
+    }
+    .fondoh2 {
+        width: 660px;
+    }
+    .division-lineal{
+        left: 334px;
+    }
+    .division-lineal2{
+        bottom: -64px;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros ol{
+        width: 400px;
+    }
+    .acerca-nosotros h2{
+        left: 40px;
+    }
+    .acerca-nosotros h3{
+        left: 90px;
+        margin-bottom: 200px;
+    }
+    .nosotros-lista-1{
+        width: 480px;
+        margin: 30px 0px 24px 50px;
+    }
+    .nosotros-lista-2{
+        width: 440px;
+        margin: 8px 0px 24px 72px;
+    }
+    .nosotros-lista-3{
+        width: 494px;
+        margin: 8px 0px 24px 48px;
+    }
+    .nosotros-lista-4{
+        width: 450px;
+        margin: 8px 0px 18px 74px;
+    }
+    .nosotros-lista-5{
+        width: 480px;
+        margin: 8px 0 4px 52px;
+    }
+    .nosotros-img{
+        left: 180px;
+    }
+    .contenedor-banco{
+        width: 660px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -30px;
+    }
+    .secc-banco ol li{
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 24%;
+    }
+    .atajos-web a{
+        margin: 0 50px 10px 19%;
+    }
+}
+@media screen and (max-width:682px) {
+    .logo{
+        left: 560px;
+    }
+    nav ul li{
+        right: 412px;
+    }
+    nav > ul > li > a{
+        width: 658px;
+    }
+    .carrusel-portada{
+        width: 640px;
+        height: 490px;
+    }
+    .carrusel-h1{
+        font-size: 38px;
+        left: 30px;
+    }
+    .imag-carrusel1{
+        width: 606px;
+        height: 470px;
+        margin-left: 6px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 22px;
+        margin-left: 11.2px;
+        height: 470px;
+        width: 600px;
+    }
+    .imag-carrusel3{
+        margin-right: 12px;
+        margin-left: 20px;
+        height: 470px;
+        width: 610px;
+    }
+    .carrusel-imagenp{
+        height: 200px;
+        width: 200px;
+        left: 80px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 40% 40%;
+        width: 640px;
+    }
+    .card{
+        width: 280px;
+        margin-left: 15px;
+    }
+    .fondoh2 {
+        width: 640px;
+    }
+    .division-lineal{
+        left: 330px;
+    }
+    .division-lineal2{
+        left: 10.2%;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros ol{
+        width: 400px;
+    }
+    .acerca-nosotros h2{
+        left: 32px;
+    }
+    .acerca-nosotros h3{
+        left: 90px;
+        margin-bottom: 180px;
+    }
+    .nosotros-lista-1{
+        width: 480px;
+        margin: 30px 0px 24px 40px;
+    }
+    .nosotros-lista-2{
+        width: 440px;
+        margin: 8px 0px 24px 64px;
+    }
+    .nosotros-lista-3{
+        width: 494px;
+        margin: 8px 0px 24px 38px;
+    }
+    .nosotros-lista-4{
+        width: 450px;
+        margin: 8px 0px 18px 60px;
+    }
+    .nosotros-lista-5{
+        width: 480px;
+        margin: 8px 0 4px 42px;
+    }
+    .nosotros-img{
+        left: 164px;
+        top: 208px;
+    }
+    .contenedor-banco{
+        width: 640px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -30px;
+    }
+    .secc-banco ol li{
+        margin-left: 4.2%;
+        margin-right: 0%;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 24%;
+    }
+    .atajos-web a{
+        margin: 0px 0px 10px 18.88%;
+    }
+}
+@media screen and (max-width:664px) {
+    .logo{
+        left: 540px;
+    }
+    nav ul li{
+        right: 400px;
+    }
+    nav > ul > li > a{
+        width: 640px;
+    }
+    .carrusel-portada{
+        width: 620px;
+        height: 490px;
+    }
+    .carrusel-h1{
+        font-size: 34px;
+        left: 30px;
+    }
+    .imag-carrusel1{
+        width: 586px;
+        height: 470px;
+        margin-left: 6px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 22px;
+        margin-left: 11.2px;
+        height: 470px;
+        width: 580px;
+    }
+    .imag-carrusel3{
+        margin-right: 12px;
+        margin-left: 20px;
+        height: 470px;
+        width: 580px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 40% 40%;
+        width: 620px;
+    }
+    .card{
+        width: 280px;
+        margin-left: 15px;
+    }
+    .fondoh2 {
+        width: 620px;
+    }
+    .division-lineal{
+        left: 320px;
+    }
+    .division-lineal2{
+        left: 9%;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros ol{
+        width: 400px;
+    }
+    .acerca-nosotros h2{
+        left: 22px;
+    }
+    .acerca-nosotros h3{
+        left: 80px;
+        margin-bottom: 180px;
+    }
+    .nosotros-lista-1{
+        width: 480px;
+        margin: 30px 0px 24px 30px;
+    }
+    .nosotros-lista-2{
+        width: 440px;
+        margin: 8px 0px 24px 52px;
+    }
+    .nosotros-lista-3{
+        width: 480px;
+        margin: 8px 0px 24px 30px;
+    }
+    .nosotros-lista-4{
+        width: 450px;
+        margin: 8px 0px 18px 46px;
+    }
+    .nosotros-lista-5{
+        width: 480px;
+        margin: 8px 0 4px 32px;
+    }
+    .nosotros-img{
+        left: 158px;
+        top: 208px;
+    }
+    .contenedor-banco{
+        width: 620px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -40px;
+    }
+    .secc-banco ol li{
+        margin-left: 4.2%;
+        margin-right: 0%;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 23%;
+    }
+    .atajos-web a{
+        margin: 0px 0px 10px 18.88%;
+    }
+}
+@media screen and (max-width:642px) {
+    .logo{
+        left: 520px;
+    }
+    nav ul li{
+        right: 384px;
+    }
+    nav > ul > li > a{
+        width: 610px;
+    }
+    .carrusel-portada{
+        width: 600px;
+        height: 470px;
+    }
+    .carrusel-h1{
+        font-size: 34px;
+        left: 30px;
+    }
+    .imag-carrusel1{
+        width: 568px;
+        height: 450px;
+        margin-left: 4px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 22px;
+        margin-left: 11.2px;
+        height: 450px;
+        width: 560px;
+    }
+    .imag-carrusel3{
+        margin-right: 12px;
+        margin-left: 20px;
+        height: 450px;
+        width: 570px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 45% 45%;
+        width: 600px;
+    }
+    .card{
+        width: 280px;
+        margin-left: 26px;
+    }
+    .fondoh2 {
+        width: 600px;
+    }
+    .division-lineal{
+        left: 310px;
+    }
+    .division-lineal2{
+        left: 7%;
+    }
+    .acerca-nosotros{
+        margin-left: 18px;
+        height: 1140px;
+    }
+    .acerca-nosotros ol{
+        width: 400px;
+    }
+    .acerca-nosotros h2{
+        left: 10px;
+    }
+    .acerca-nosotros h3{
+        left: 60px;
+        margin-bottom: 180px;
+    }
+    .nosotros-lista-1{
+        width: 480px;
+        margin: 30px 0px 24px 24px;
+    }
+    .nosotros-lista-2{
+        width: 440px;
+        margin: 8px 0px 24px 42px;
+    }
+    .nosotros-lista-3{
+        width: 480px;
+        margin: 8px 0px 24px 24px;
+    }
+    .nosotros-lista-4{
+        width: 450px;
+        margin: 8px 0px 18px 36px;
+    }
+    .nosotros-lista-5{
+        width: 480px;
+        margin: 8px 0 4px 24px;
+    }
+    .nosotros-img{
+        left: 144px;
+        top: 208px;
+    }
+    .selecciones{
+        margin: 0;
+        width: 100%;
+    }
+    .selecciones div{
+        width: 100%;
+        height: 250px;
+    }
+    .contenedor-banco{
+        width: 600px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -40px;
+    }
+    .secc-banco ol li{
+        margin-left: 4.2%;
+        margin-right: 0%;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 22%;
+    }
+    .atajos-web a{
+        margin: 0px 0px 10px 18.88%;
+    }
+}
+@media screen and (max-width:622px) {
+    .logo{
+        left: 500px;
+    }
+    nav ul li{
+        right: 368px;
+    }
+    nav > ul > li > a{
+        width: 588px;
+    }
+    .carrusel-portada{
+        width: 580px;
+        height: 450px;
+    }
+    .carrusel-h1{
+        font-size: 30px;
+        left: 30px;
+    }
+    .imag-carrusel1{
+        width: 550px;
+        height: 430px;
+        margin-left: 2px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 22px;
+        margin-left: 11.2px;
+        height: 430px;
+        width: 540px;
+    }
+    .imag-carrusel3{
+        margin-right: 12px;
+        margin-left: 20px;
+        height: 430px;
+        width: 550px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 48% 48%;
+        width: 580px;
+    }
+    .card{
+        width: 280px;
+        margin-left: 30px;
+    }
+    .fondoh2 {
+        width: 580px;
+    }
+    .division-lineal{
+        left: 300px;
+    }
+    .division-lineal2{
+        left: 5%;
+    }
+    .acerca-nosotros{
+        margin-left: 14px;
+        margin-right: 0;
+        height: 1140px;
+    }
+    .acerca-nosotros ol{
+        width: 380px;
+    }
+    .acerca-nosotros h2{
+        left: 4px;
+    }
+    .acerca-nosotros h3{
+        left: 58px;
+        margin-bottom: 180px;
+    }
+    .nosotros-lista-1{
+        width: 480px;
+        margin: 30px 0px 24px 12px;
+    }
+    .nosotros-lista-2{
+        width: 440px;
+        margin: 8px 0px 24px 32px;
+    }
+    .nosotros-lista-3{
+        width: 480px;
+        margin: 8px 0px 24px 14px;
+    }
+    .nosotros-lista-4{
+        width: 450px;
+        margin: 8px 0px 18px 26px;
+    }
+    .nosotros-lista-5{
+        width: 480px;
+        margin: 8px 0 4px 12px;
+    }
+    .nosotros-img{
+        left: 132px;
+        top: 208px;
+    }
+    .selecciones{
+        margin: 0;
+        width: 100%;
+    }
+    .selecciones div{
+        width: 100%;
+        height: 260px;
+    }
+    .contenedor-banco{
+        width: 580px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -50px;
+    }
+    .secc-banco ol li{
+        margin-left: 18px;
+        margin-right: 20px;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 21%;
+    }
+    .atajos-web a{
+        margin: 0px 0px 10px 18.88%;
+    }
+}
+@media screen and (max-width:602px) {
+    .logo{
+        left: 480px;
+    }
+    nav ul li{
+        right: 358px;
+    }
+    nav > ul > li > a{
+        width: 572px;
+    }
+    .carrusel-portada{
+        width: 556px;
+        height: 450px;
+    }
+    .carrusel-h1{
+        font-size: 30px;
+        left: 30px;
+    }
+    .imag-carrusel1{
+        width: 526px;
+        height: 430px;
+        margin-left: 2px;
+        margin-right: 30px;
+    }
+    .imag-carrusel2{
+        margin-right: 22px;
+        margin-left: 11.2px;
+        height: 430px;
+        width: 516px;
+    }
+    .imag-carrusel3{
+        margin-right: 12px;
+        margin-left: 20px;
+        height: 430px;
+        width: 526px;
+    }
+    .tarjetas-presentacion {
+        grid-template-columns: 43% 43%;
+        width: 560px;
+    }
+    .card{
+        width: 260px;
+        margin-left: 20px;
+    }
+    .fondoh2 {
+        width: 560px;
+    }
+    .division-lineal{
+        left: 290px;
+        width: 200px;
+    }
+    .division-lineal2{
+        width: 200px;
+        left: 13%;
+    }
+    .acerca-nosotros{
+        margin-left: 14px;
+        margin-right: 0;
+        height: 1180px;
+    }
+    .acerca-nosotros ol{
+        width: 380px;
+    }
+    .acerca-nosotros h2{
+        left: 0px;
+    }
+    .acerca-nosotros h3{
+        left: 50px;
+        margin-bottom: 210px;
+    }
+    .nosotros-lista-1{
+        width: 410px;
+        margin: 30px 0px 24px 40px;
+    }
+    .nosotros-lista-2{
+        width: 400px;
+        margin: 8px 0px 24px 42px;
+    }
+    .nosotros-lista-3{
+        width: 420px;
+        margin: 8px 0px 24px 34px;
+    }
+    .nosotros-lista-4{
+        width: 420px;
+        margin: 8px 0px 18px 36px;
+    }
+    .nosotros-lista-5{
+        width: 440px;
+        margin: 8px 0 4px 26px;
+    }
+    .nosotros-img{
+        left: 126px;
+        top: 218px;
+    }
+    .contenedor-banco{
+        width: 560px;
+        height: 100px;
+    }
+    .secc-banco ol li:first-of-type{
+        margin-left: -50px;
+    }
+    .secc-banco ol li{
+        margin-left: 18px;
+        margin-right: 20px;
+    }
+    .secc-banco img{
+        width: 100px;
+        height: 38px;
+    }
+    .social a:first-of-type{
+        margin-left: 20%;
+    }
+    .atajos-web a{
+        margin: 0px 0px 10px 18.4%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------------------FIN DE MEDIA QUERIS--------------------*/
 /*---------------------------KEYFRAMES--------------------*/
 @keyframes cambio {
