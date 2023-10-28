@@ -9348,37 +9348,40 @@ footer div {
         left: 12.9%;
     }
     .acerca-nosotros{
-        height: 1300px;
+        height: 1380px;
+    }
+    .acerca-nosotros ol{
+        width: 300px;
     }
     .acerca-nosotros h2{
-        width: 400px;
+        width: 350px;
     }
     .acerca-nosotros h3{
-        margin-bottom: 260px;
+        margin-bottom: 300px;
     }
     .nosotros-lista-1{
-        width: 380px;
+        width: 310px;
         height: 150px;
     }
     .nosotros-lista-2{
-        width: 360px;
-        height: 180px;
+        width: 310px;
+        height: 190px;
     }
     .nosotros-lista-3{
-        width: 380px;
-        height: 200px;
+        width: 320px;
+        height: 230px;
     }
     .nosotros-lista-4{
-        width: 380px;
-        height: 120px;
+        width: 300px;
+        height: 130px;
     }
     .nosotros-lista-5{
-        width: 370px;
+        width: 330px;
         height: 80px;
     }
     .nosotros-img{
-        top: 296px;
-        left: 80px;
+        top: 344px;
+        left: 40px;
     }
     .selecciones div:nth-child(2n){
         height: 320px;
@@ -9502,37 +9505,40 @@ footer div {
         left: 26%;
     }
     .acerca-nosotros{
-        height: 1300px;
+        height: 1380px;
+    }
+    .acerca-nosotros ol{
+        width: 300px;
     }
     .acerca-nosotros h2{
-        width: 400px;
+        width: 350px;
     }
     .acerca-nosotros h3{
-        margin-bottom: 260px;
+        margin-bottom: 300px;
     }
     .nosotros-lista-1{
-        width: 380px;
+        width: 310px;
         height: 150px;
     }
     .nosotros-lista-2{
-        width: 360px;
-        height: 180px;
+        width: 310px;
+        height: 190px;
     }
     .nosotros-lista-3{
-        width: 380px;
-        height: 200px;
+        width: 320px;
+        height: 230px;
     }
     .nosotros-lista-4{
-        width: 380px;
-        height: 120px;
+        width: 300px;
+        height: 130px;
     }
     .nosotros-lista-5{
-        width: 370px;
+        width: 330px;
         height: 80px;
     }
     .nosotros-img{
-        top: 296px;
-        left: 80px;
+        top: 344px;
+        left: 40px;
     }
     .selecciones div:nth-child(2n){
         height: 340px;
@@ -9658,9 +9664,42 @@ footer div {
         width: 100px;
         left: 26%;
     }
+    .acerca-nosotros{
+        height: 1380px;
+    }
+    .acerca-nosotros ol{
+        width: 300px;
+    }
     .acerca-nosotros h2{
-        width: 400px;
-        font-size: 42px;
+        font-size: 42;
+        width: 350px;
+    }
+    .acerca-nosotros h3{
+        margin-bottom: 300px;
+    }
+    .nosotros-lista-1{
+        width: 310px;
+        height: 150px;
+    }
+    .nosotros-lista-2{
+        width: 310px;
+        height: 190px;
+    }
+    .nosotros-lista-3{
+        width: 320px;
+        height: 230px;
+    }
+    .nosotros-lista-4{
+        width: 300px;
+        height: 130px;
+    }
+    .nosotros-lista-5{
+        width: 330px;
+        height: 80px;
+    }
+    .nosotros-img{
+        top: 344px;
+        left: 40px;
     }
     .selecciones div:nth-child(2n){
         height: 340px;
@@ -9735,36 +9774,36 @@ footer div {
         right: 400px;
     }
     nav ul li{
-        right: 286px;
+        right: 270px;
     }
     nav > ul > li > a{
-        width: 450px;
+        width: 420px;
     }
     .carrusel-portada{
-        width: 460px;
+        width: 410px;
         height: 380px;
     }
     .carrusel-h1{
-        font-size: 26px;
-        left: 30px;
+        font-size: 24px;
+        left: 20px;
     }
     .imag-carrusel1{
-        width: 421px;
+        width: 380px;
         height: 360px;
-        margin-left: -50px;
+        margin-left: -100px;
         margin-right: 10px;
     }
     .imag-carrusel2{
         margin-right: 0px;
-        margin-left: -110px;
+        margin-left: -270px;
         height: 360px;
-        width: 418px;
+        width: 360px;
     }
     .imag-carrusel3{
         margin-right: 0px;
-        margin-left: -160px;
+        margin-left: -400px;
         height: 360px;
-        width: 420px;
+        width: 360px;
     }
     .carrusel-imagenp{
         left: 30px;
@@ -9772,40 +9811,75 @@ footer div {
         width: 150px;
     }
     .tarjetas-presentacion {
-        grid-template-columns: 220px 280px;
-        width: 450px;
+        grid-template-columns: 200px 230px;
+        width: 400px;
         margin-left: -5px;
     }
     .card{
         height: 510px;
-        width: 216px;
+        width: 170px;
         margin-left: 30px;
     }
     .card img{
-        width: 100%;
+        width: 90%;
         height: 300px;
     }
     .contenido h3 p{
-        width: 200px;
+        width: 150px;
     }
     .fondoh2 {
-        width: 450px;
+        width: 400px;
         margin-left: -5px;
     }
     .division-lineal{
-        left: 224px;
+        left: 200px;
         width: 100px;
     }
     .division-lineal2{
         width: 100px;
-        left: 26%;
+        left: 24%;
     }
-    
+    .acerca-nosotros{
+        height: 1380px;
+    }
+    .acerca-nosotros ol{
+        width: 300px;
+    }
+    .acerca-nosotros h2{
+        width: 350px;
+    }
+    .acerca-nosotros h3{
+        margin-bottom: 300px;
+    }
+    .nosotros-lista-1{
+        width: 310px;
+        height: 150px;
+    }
+    .nosotros-lista-2{
+        width: 310px;
+        height: 190px;
+    }
+    .nosotros-lista-3{
+        width: 320px;
+        height: 230px;
+    }
+    .nosotros-lista-4{
+        width: 300px;
+        height: 130px;
+    }
+    .nosotros-lista-5{
+        width: 330px;
+        height: 80px;
+    }
+    .nosotros-img{
+        top: 344px;
+        left: 40px;
+    }
     .selecciones div:nth-child(2n){
         height: 340px;
     }
     .contenedor-banco{
-        width: 450px;
+        width: 400px;
         height: 100px;
     }
     .secc-banco ol li:first-of-type{
