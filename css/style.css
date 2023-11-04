@@ -475,7 +475,7 @@ main {
     margin-bottom: 30px;
     color: #2499c7;
     text-align: center;
-    font-family: 'DM Serif Display', serif;
+    font-family: $text-serif;
     font-style: italic;
     font-weight: 500px;
     font-size: 55px;
