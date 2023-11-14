@@ -8,13 +8,22 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>DogParadise</title>
+    <title>DogParadise | Venta de productos para mascotas!</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="DogParadise, arnes, juguetes, sogas, perro, pelota, peluche, petshop, mascotas, ">
+    <meta name="description" content="Tienda de venta de porductos para mascotas con envio a domicilio. Consegui lo mejor para tu mascota!">
+    <meta property="og:type" content="E-commerce">
+    <meta property="og:title" content="DogParadise | Venta de productos para mascotas!">
+    <meta property="og:url" content="url-pag">
+    <meta property="og:image" content="url img">
+    <meta property="og:description" content="Tienda de venta de porductos para mascotas. Consegui lo mejor para tu mascota!">
 </head>
 <body>
     <header>
         <div class="header-superior">
             <img src="./img/logo-titulo.png" alt="">
             <div class="menu-contenedor">
+                <h1>DogParadise</h1><p>!</p>
                 <img class="logo-dentro" src="./img/perro---logo.png" alt="">
                 <div class="menu">
                     <input type="checkbox" id="check__menu">
@@ -29,7 +38,7 @@
                                 </a>
                                 <ul>
                                     <li class="nav__ul__li__ul__li1"><a href="./pages/juguetes.html">Juguetes</a></li>
-                                    <li class="nav__ul__li__ul__li2"><a href="">Pretales</a></li>
+                                    <li class="nav__ul__li__ul__li2"><a href="./pages/pretales.html">Pretales</a></li>
                                     <li class="nav__ul__li__ul__li3"><a href="#bank" class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Forma de Pago</a></li>
                                     <li class="nav__ul__li__ul__li4"><a href="./pages/medidas.html">Talles</a></li>
                                 </ul>
@@ -48,19 +57,21 @@
         <section>
             <div class="carrusel-portada">
                 <ul class="carrusel-ul">
-                    <h1 class="carrusel-h1">Bienvenido a DogParadise</h1>
+                    <h2 class="carrusel-h2">Bienvenido a DogParadise!</h1>
                     <div>
                         <img class="img-nube" src="./img/nube.png" alt="nube">
-                        <img class="carrusel-imagenp" src="./img/perro-portada.png" alt="">
+                        <img class="carrusel-imagenp" src="./img/perro-portada.png" alt="perro animado sobre nube">
                     </div>
                     <li class="carru_li1">
                         <img class="imagenes-carrusel imag-carrusel1" src="./img/portada4.jpg" alt="">
                     </li>
                     <li class="carru_li2">
                         <img class="imagenes-carrusel imag-carrusel2" src="./img/portada2.jpg" alt="">
+                        <p>Horario de atencion: Lunes a Viernes de 8:00 a 12:00 y 16:00 a 20:00</p>
                     </li>
                     <li class="carru_li3">
                         <img class="imagenes-carrusel imag-carrusel3" src="./img/portada5.png" alt="">
+                        <p>Tu mascota es parte de tu familia, y merece lo mejor. Dale el amor que se merece con productos de calidad que la harán más feliz y saludable. ¡Descubre cómo hacer sonreír a tu fiel compañero hoy mismo!</p>
                     </li>
                 </ul>
             </div>
@@ -75,7 +86,7 @@
                 <article class="tpj-card1">
                     <figure>
                         <img src="./img/arnes-cover-unicornio.jpg"
-                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                            alt="arnes con dibujos">
                     </figure>
                     <div class="contenido">
                         <h3>
@@ -165,7 +176,7 @@
                 <article class="card">
                     <figure>
                         <img src="./img/arnes-cover-unicornio.jpg"
-                            alt="arnes rosa con dibujos de unicornios y arcoiris">
+                            alt="arnes con dibujos">
                     </figure>
                     <div class="contenido">
                         <h3>
@@ -274,7 +285,7 @@
                     mascotas.
                     ¡Esperamos servirte y a tus adorables compañeros peludos en el futuro!</li>
             </ol>
-            <div class="nosotros-img"><img src="./img/imagen-nosotros.png" alt=""></div>
+            <div class="nosotros-img"><img src="./img/imagen-nosotros.png" alt="imagen de perro escuchando"></div>
         </section>
         <section class="patita-intermedia">
             <div class="division-lineal"></div>
@@ -282,7 +293,7 @@
         </section>
         <section class="selecciones">
             <div class="etiquetas">
-                <a href="/pages/envios.html" target="_blank"><img src="./img/delivery.png" alt="imagen de delivery"></a>
+                <a href="/pages/envios.html" target="_blank"><img src="./img/delivery.png" alt="imagen de enlace a delivery"></a>
                 <h2>ENVÍOS GRATIS</h2>
                 <p>
                     En compras superiores a $5000.
@@ -290,7 +301,7 @@
             </div>
             <div class="etiquetas">
                 <a href="./pages/cambio-devolucion.html" target="_blank"><img src="./img/return-box.png"
-                        alt="imagen de devolucion"></a>
+                        alt="imagen de enlace a seccion devoluciones"></a>
                 <h2>DEVOLUCIONES / CAMBIOS</h2>
                 <p>
                     En caso de defectos de fabricación o talle mal elegido se realiza el cambio o devolucipon del
@@ -299,7 +310,7 @@
             </div>
             <div class="etiquetas">
                 <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-contacto"
-                    data-bs-whatever="@mdo"><img src="./img/chat.png" alt="icono de conversacion de ayuda en linea"></a>
+                    data-bs-whatever="@mdo"><img src="./img/chat.png" alt="imagen con enlace de ayuda en linea"></a>
                 <h2>AYUDA EN LÍNEA</h2>
                 <p>
                     Cualquier duda se responderá a la brevedad.
@@ -313,16 +324,16 @@
         <section id="bank" class="contenedor-banco">
             <div class="secc-banco">
                 <ol>
-                    <li><img src="./img/b-bancor.png" alt=""></li>
-                    <li><img src="./img/banco-balenco.png" alt=""></li>
-                    <li><img src="./img/banco-bersa.jpeg" alt=""></li>
-                    <li><img src="./img/banco-nacion.png" alt=""></li>
-                    <li><img src="./img/banco-provincia.png" alt=""></li>
-                    <li><img src="./img/banco-chubut.png" alt=""></li>
-                    <li><img src="./img/banco-hipotecario.png" alt=""></li>
-                    <li><img src="./img/banco-macro.png" alt=""></li>
-                    <li><img src="./img/banco-rosario.png" alt=""></li>
-                    <li><img src="./img/banco_galicia_logo.png" alt=""></li>
+                    <li><img src="./img/b-bancor.png" alt="imagen Banco Bancor"></li>
+                    <li><img src="./img/banco-balenco.png" alt="imagen Banco Balenco"></li>
+                    <li><img src="./img/banco-bersa.jpeg" alt="imagen Banco Bersa"></li>
+                    <li><img src="./img/banco-nacion.png" alt="imagen Banco Nacion"></li>
+                    <li><img src="./img/banco-provincia.png" alt="imagen Banco Provincia"></li>
+                    <li><img src="./img/banco-chubut.png" alt="imagen Banco Chubut"></li>
+                    <li><img src="./img/banco-hipotecario.png" alt="imagen Banco Hipotecario"></li>
+                    <li><img src="./img/banco-macro.png" alt="imagen Banco Macro"></li>
+                    <li><img src="./img/banco-rosario.png" alt="imagen Banco Rosario"></li>
+                    <li><img src="./img/banco_galicia_logo.png" alt="imagen Banco Galicia"></li>
                 </ol>
             </div>
         </section>
@@ -412,61 +423,88 @@
                 </div>
             </div>
         </section>
-        <!-- <section>
+        <section>
             <div class="modal fade" id="exampleModal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-atencion">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                            <h2 class="modal-title fs-5" id="exampleModalLabel">New message</h2>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="recipient-name" class="col-form-label">Para:</label>
-                                    <input class="form-control" type="email" name="direccionemail"
-                                        value="dogparadise@service.dgp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message-text" class="col-form-label">Message:</label>
-                                    <textarea class="form-control" id="message-text"></textarea>
-                                </div>
-                            </form>
+                            <h2>Escríbenos y en breve los pondremos en contacto contigo</h2>
+					<form action="submeter-formulario.php" method="post">				
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+								<p>
+									<label for="telefone" class="colocar_telefono">Teléfono
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>		
+								<p>
+									<label for="asunto" class="colocar_asunto">Asunto
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+								</p>		
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
+                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>	  								
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					</form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send message</button>
+                        <div class="modal-footer footer-atencion">
+                            <button type="button" class="btn botonp-footer" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn botons-footer">Send message</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal fade" id="exampleModal-producto" tabindex="-1" aria-labelledby="exampleModalLabel"
+        </section>
+        <section>
+            <div class="modal fade carrito-a" id="exampleModal-producto" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
-                        <div class="modal-header">
+                        <div class="modal-header header-carrito">
                             <h1 class="modal-title" id="exampleModalLabel">Producto</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body modal-carrito">
                             <p>Por el momento las compras no se encuentran habilitadas, pruebe en otro momento.</p>
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer footer-carrito">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
                             <button type="button" class="btn btn-primary">Ver Carrito</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="cartel-cf">
+        </section>
+        <section class="cartel-cf">
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Consultas Frecuentes</h1>
+                    <div class="modal-header header-cf">
+                        <h2 class="modal-title fs-5" id="staticBackdropLabel">Consultas Frecuentes</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -481,8 +519,7 @@
                                 </h2>
                                 <div id="flush-collapseOne" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Conoce nuestras promociones bancarias desde <code><a href="#bank">*Promodiones bancarias</a></code> class. This is the
-                                        first item's accordion body.</div>
+                                    <div class="accordion-body">Conoce nuestras promociones bancarias desde <code><a href="#bank">*Promodiones bancarias</a></code> y aprovecha para darle un regalito a tu compañero.</div>
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -514,14 +551,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer footer-cf">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
                     </div>
                 </div>
             </div>
         </div>
-        </section> -->
+        </section>
     </main>
     <footer id="pie">
         <div class="social">

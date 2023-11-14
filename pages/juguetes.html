@@ -8,14 +8,16 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!--<link rel="stylesheet" href="../css/style.css">-->
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Juguetes</title>
+    <title>Sección venta de Juguetes</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="DogParadise, arnes, juguetes, sogas, perro, pelota, peluche, petshop, mascotas, ">
+    <meta name="description" content="Tienda de venta de porductos para mascotas con envio a domicilio. Consegui lo mejor para tu mascota!">
 </head>
 <body>
     <header>
         <div class="header-superior">
-            <img src="../img/logo-titulo.png" alt="">
             <div class="menu-contenedor">
-                <img class="logo-dentro" src="../img/perro---logo.png" alt="">
+                <h1>DogParadise</h1><p>!</p>
                 <div class="menu">
                     <input type="checkbox" id="check__menu">
                     <label id="#label__check" for="check__menu">
@@ -29,15 +31,15 @@
                                 </a>
                                 <ul>
                                     <li class="nav__ul__li__ul__li1"><a href="../pages/juguetes.html">Juguetes</a></li>
-                                    <li class="nav__ul__li__ul__li2"><a href="">Pretales</a></li>
+                                    <li class="nav__ul__li__ul__li2"><a href="../pages/pretales.html">Pretales</a></li>
                                     <li class="nav__ul__li__ul__li3"><a href="#bank" class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Forma de Pago</a></li>
                                     <li class="nav__ul__li__ul__li4"><a href="../pages/medidas.html">Talles</a></li>
                                 </ul>
                             </li>
                             <li class="nav__ul__li3"><a href="#pie-juguetes">Contacto</a></li>
                             <li class="nav__ul__li4"><a class="boton-cf" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultas Frecuentes</a></li>
-                            <li class="nav__ul__li5"><a href="../pages/envios.html">Envios</a></li>
-                            <li class="nav__ul__li6"><a href="#Nosotros">Nosotros</a></li>
+                            <li class="nav__ul__li5"><a href="../pages/cambio-devolucion.html" target="_blank">Cambio Devoluciones</a></li>
+                            <li class="nav__ul__li6"><a href="../pages/envios.html" target="_blank">Envios</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -46,16 +48,14 @@
     </header>
     <main>
         <div class="img-juegos">
-            <img src="../img/pelota1.png" alt="">
-            <img src="../img/pelota2.png" alt="">
-            <img src="../img/perro-pelota.png" alt="">
+            <img src="../img/pelota2.png" alt="imagen de pelota animada">
         </div>
         <section class="box-card-juguetes">
             <h2 class="fondo-h2">~ ~ Juguetes ~ ~</h2>
             <div class="tarjetas-presentacion-juguetes">
                 <article class="card-juguetes">
                     <figure>
-                    <img src="../img/juguete1.png" alt="">
+                    <img src="../img/juguete1.png" alt="imagen pelota">
                     </figure>
                     <div class="contenido-juguetes">
                         <h3>
@@ -68,7 +68,7 @@
                 </article>
                 <article class="card-juguetes">
                     <figure>
-                        <img src="../img/juguete2.png" alt="">
+                        <img src="../img/juguete2.png" alt="imagen de pelota con soga">
                     </figure>
                     <div class="contenido-juguetes">
                         <h3>
@@ -228,10 +228,10 @@
     <div class="division-lineal"></div>
     <div class="division-lineal2"></div>
 </section>
-        <section class="selecciones-secundario">
+        <section class="selecciones-secundario selecciones">
             <div class="etiquetas-juegos">
                 
-                <a href="/pages/envios.html" target="_blank"><img src="../img/delivery.png" alt="imagen de delivery"></a>
+                <a href="/pages/envios.html" target="_blank"><img src="../img/delivery.png" alt="imagen de enlace a delivery"></a>
                 <h2>ENVÍOS GRATIS</h2>
                 <p>
                     En compras superiores a $5000.
@@ -239,7 +239,7 @@
             </div>
             <div class="etiquetas-juegos">
                 
-                <a href="./pages/cambio-devolucion.html" target="_blank"><img src="../img/return-box.png" alt="imagen de devolucion"></a>
+                <a href="./pages/cambio-devolucion.html" target="_blank"><img src="../img/return-box.png" alt="imagen de enlace a seccion devoluciones"></a>
                 <h2>DEVOLUCIONES / CAMBIOS</h2>
                 <p>
                     En caso de defectos de fabricación o talle mal elegido se realiza el cambio o devolucipon del dinero.
@@ -247,12 +247,214 @@
             </div>
             <div class="etiquetas-juegos">
         
-        <a href="./pages/servicio-cliente.html" target="_blank"><img src="../img/chat.png" alt="icono de conversacion de ayuda en linea"></a>
+                <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-contacto"
+                    data-bs-whatever="@mdo"><img src="../img/chat.png" alt="imagen con enlace de ayuda en linea"></a>
         <h2>AYUDA EN LÍNEA</h2>
         <p>
         Cualquier duda se responderá a la brevedad.
         </p>
         </div>
+        </section>
+        <section>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div>
+                    <div class="modal-content modal-bank modal-dialog-scrollable">
+                        <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalLabel">Promociones Bancarias</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="promo-bank">
+                                <h2>Ahora 12, 6 y 3 cuotas</h2>
+                                <p>En productos seleccionados con Visa, American Express, Cabal, Tarjeta Shopping,
+                                    Cordobesa y Mastercard bancarias.</p>
+                                <div class="promo-bank__img">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/6d29bb40-e66c-11eb-aa09-51c2c1089ea8-m.svg"
+                                        alt="Ahora 12">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/c2311f10-efaa-11eb-9a80-1175871fb85a-m.svg"
+                                        alt="Ahora 6">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/b9782670-efaa-11eb-8e0d-6f4af49bf82e-m.svg"
+                                        alt="Ahora 3">
+                                </div>
+                            </div>
+                            <div class="divisor-bank"></div>
+                            <div class="promo-bank2">
+                                <h2><span>Mismo precio en hasta 6 cuotas*</span> con estas tarjetas</h2>
+                                <p>En productos seleccionados.</p>
+                                <div class="promo-bank__img2">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/a5f047d0-9be0-11ec-aad4-c3381f368aaf-m.svg"
+                                        alt="Visa">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/c9f71470-6f07-11ec-9b23-071a218bbe35-m.svg"
+                                        alt="Cabal">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/33ea00e0-571a-11e8-8364-bff51f08d440-m.svg"
+                                        alt="Tarjeta Shopping">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/5cc05a00-d012-11ea-be41-3936b95cb468-m.svg"
+                                        alt="Cencosud">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/751ea930-571a-11e8-9a2d-4b2bd7b1bf77-m.svg"
+                                        alt="Diners">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/d7e55980-f3be-11eb-8e0d-6f4af49bf82e-m.svg"
+                                        alt="Argencard">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/26fbb110-571c-11e8-95d8-631c1a9a92a9-m.svg"
+                                        alt="CMR">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/aa2b8f70-5c85-11ec-ae75-df2bef173be2-m.svg"
+                                        alt="Mastercard">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/fbf867c0-9108-11ed-87b1-fd4dd99fac51-m.svg"
+                                        alt="American Express">
+                                    <img src="https://http2.mlstatic.com/storage/logos-api-admin/992bc350-f3be-11eb-826e-6db365b9e0dd-m.svg"
+                                        alt="Naranja">
+                                </div>
+                                <p>La cantidad de cuotas puede variar según la tarjeta.</p>
+                            </div>
+                            <div class="divisor-bank2"></div>
+                            <div class="promo-bank3">
+                                <h2><span>Mismo precio en hasta 6 cuotas</span> en estos bancos</h2>
+                                <p class="promo-bank3__p">En todo el sitio.</p>
+                                <div class="promo-bank__img3">
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/fe827370-f3be-11eb-8e0d-6f4af49bf82e-m.svg"
+                                            alt="HSBC access now">
+                                        <p class="promo-bank__img3__p">6 cuotas</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/6e4d1e10-1230-11eb-bbd0-1f079a571ae4-m.svg"
+                                            alt="HSBC powercard">
+                                        <p class="promo-bank__img3__p">6 cuotas</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/ba8b96a0-cd41-11ea-a668-0563a89e00fd-m.svg"
+                                            alt="Patagonia">
+                                        <p class="promo-bank__img3__p">3 cuotas</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://http2.mlstatic.com/storage/logos-api-admin/27764c60-ed7a-11ec-87df-cb682e3b026f-m.svg"
+                                            alt="Patagonia singular">
+                                        <p class="promo-bank__img3__p">3 cuotas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cartel-cf">
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header header-cf">
+                        <h2 class="modal-title fs-5" id="staticBackdropLabel">Consultas Frecuentes</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Promociones bancarias
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Conoce nuestras promociones bancarias desde <code><a href="#bank">*Promodiones bancarias</a></code> y aprovecha para darle un regalito a tu compañero.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Cambios y devoluciones
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">En caso de cambio, DogParadise se hace cargo del costo del envío de la devolución, por única vez. El cliente deberá abonar el costo del nuevo envío. 
+                                        Si necesita otro cambio deberá abonar los dos envíos. Para mayor informacion puedes entrar desde aqui a <code><a href="./pages/cambio-devolucion.html" target="_blank">*Cambios y devoluciones</a></code>.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Como tomar medidas
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Puedes ver tabla de talles y como tomar medidas a tu mascota desde <code><a href="./pages/medidas.html" target="_blank">*Como tomar medidas</a></code> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer footer-cf">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section>
+            <div class="modal fade" id="exampleModal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title fs-5" id="exampleModalLabel">New message</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Escríbenos y en breve los pondremos en contacto contigo</h2>
+                    <form action="submeter-formulario.php" method="post">				
+                                <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                </p>
+                                <p>
+                                    <label for="email" class="colocar_email">Email
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                </p>
+                                <p>
+                                    <label for="telefone" class="colocar_telefono">Teléfono
+                                    </label>
+                                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                </p>		
+                                <p>
+                                    <label for="asunto" class="colocar_asunto">Asunto
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                </p>		
+                                <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                    </label>                     
+                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>	  								
+                                <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                </p>					
+                        
+                    </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer-secundario" id="pie-juguetes">
