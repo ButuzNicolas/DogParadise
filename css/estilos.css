@@ -2656,6 +2656,10 @@ footer {
     .acerca-nosotros .nosotros-img {
       top: 78px; } }
 
+@media screen and (max-width: 1150px) {
+  .carrusel-portada {
+    height: 630px; } }
+
 @media screen and (max-width: 1140px) {
   .carrusel-portada h2 {
     left: 120px; }
@@ -3637,7 +3641,7 @@ footer {
 
 @media screen and (max-width: 840px) {
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
       font-size: 40px;
       left: 70px; }
@@ -3689,7 +3693,7 @@ footer {
 
 @media screen and (max-width: 830px) {
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
       font-size: 40px;
       left: 50px; }
@@ -3754,7 +3758,7 @@ footer {
   header .header-superior .menu-contenedor .titulo-dg {
     left: 250px; }
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul {
       animation: cambio2 50s infinite alternate linear; }
       .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -3864,7 +3868,7 @@ footer {
 
 @media screen and (max-width: 816px) {
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul {
       animation: cambio2 50s infinite alternate linear; }
       .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -3915,7 +3919,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul {
       animation: cambio2 50s infinite alternate linear; }
       .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -3984,7 +3988,7 @@ footer {
 
 @media screen and (max-width: 793px) {
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul {
       animation: cambio2 50s infinite alternate linear; }
       .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -4037,7 +4041,7 @@ footer {
 
 @media screen and (max-width: 780px) {
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul {
       animation: cambio2 50s infinite alternate linear; }
       .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -4092,7 +4096,7 @@ footer {
 
 @media screen and (max-width: 760px) {
   .carrusel-portada {
-    height: 600px; }
+    height: 540px; }
     .carrusel-portada ul {
       animation: cambio3 50s infinite alternate linear; }
       .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -4588,52 +4592,54 @@ footer {
 @media screen and (max-width: 600px) {
   header .header-superior .menu-contenedor .titulo-dg {
     left: 140px; }
-  .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
-    width: 400px;
-    font-size: 40px;
-    left: 30px; }
-  .carrusel-portada ul div .img-nube {
-    width: 210px;
-    height: 200px;
-    top: 260px;
-    left: 110px; }
-  .carrusel-portada ul div .carrusel-imagenp {
-    width: 210px;
-    height: 200px;
-    top: 180px;
-    left: 110px; }
-  .carrusel-portada ul li:first-of-type {
-    width: 540px;
-    margin-left: -10px;
-    height: 460px; }
-    .carrusel-portada ul li:first-of-type .imag-carrusel1 {
-      width: 540px;
-      height: 460px; }
-  .carrusel-portada ul .carru_li2 {
-    width: 520px;
-    margin-left: -130px;
-    margin-right: 150px;
-    height: 460px; }
-    .carrusel-portada ul .carru_li2 .imag-carrusel2 {
-      width: 520px;
-      height: 460px; }
-    .carrusel-portada ul .carru_li2 p {
-      width: 300px;
-      font-size: 22px;
-      left: 136%; }
-  .carrusel-portada ul .carru_li3 {
-    margin-left: 40px;
-    width: 520px;
-    height: 460px; }
-    .carrusel-portada ul .carru_li3 .imag-carrusel3 {
-      width: 520px;
-      height: 460px; }
-    .carrusel-portada ul .carru_li3 p {
+  .carrusel-portada {
+    height: 500px; }
+    .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
       width: 400px;
-      color: white;
-      font-size: 16px;
-      left: 260%;
-      top: 280px; }
+      font-size: 40px;
+      left: 30px; }
+    .carrusel-portada ul div .img-nube {
+      width: 210px;
+      height: 200px;
+      top: 260px;
+      left: 110px; }
+    .carrusel-portada ul div .carrusel-imagenp {
+      width: 210px;
+      height: 200px;
+      top: 180px;
+      left: 110px; }
+    .carrusel-portada ul li:first-of-type {
+      width: 540px;
+      margin-left: -10px;
+      height: 460px; }
+      .carrusel-portada ul li:first-of-type .imag-carrusel1 {
+        width: 540px;
+        height: 460px; }
+    .carrusel-portada ul .carru_li2 {
+      width: 520px;
+      margin-left: -130px;
+      margin-right: 150px;
+      height: 460px; }
+      .carrusel-portada ul .carru_li2 .imag-carrusel2 {
+        width: 520px;
+        height: 460px; }
+      .carrusel-portada ul .carru_li2 p {
+        width: 300px;
+        font-size: 22px;
+        left: 136%; }
+    .carrusel-portada ul .carru_li3 {
+      margin-left: 40px;
+      width: 520px;
+      height: 460px; }
+      .carrusel-portada ul .carru_li3 .imag-carrusel3 {
+        width: 520px;
+        height: 460px; }
+      .carrusel-portada ul .carru_li3 p {
+        width: 400px;
+        color: white;
+        font-size: 16px;
+        left: 260%;
+        top: 280px; }
   .patita-intermedia div:nth-child(2) {
     left: 13%; }
   .box-cards h2, .box-cards .fondoh2 {
@@ -4888,52 +4894,54 @@ footer {
     top: 38px; } }
 
 @media screen and (max-width: 510px) {
-  .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
-    width: 400px;
-    font-size: 40px;
-    left: 30px; }
-  .carrusel-portada ul div .img-nube {
-    width: 140px;
-    height: 140px;
-    top: 260px;
-    left: 90px; }
-  .carrusel-portada ul div .carrusel-imagenp {
-    width: 140px;
-    height: 140px;
-    top: 220px;
-    left: 90px; }
-  .carrusel-portada ul li:first-of-type {
-    width: 430px;
-    margin-left: 0px;
-    height: 420px; }
-    .carrusel-portada ul li:first-of-type .imag-carrusel1 {
-      width: 430px;
-      height: 420px; }
-  .carrusel-portada ul .carru_li2 {
-    width: 400px;
-    margin-left: -100px;
-    margin-right: 150px;
-    height: 420px; }
-    .carrusel-portada ul .carru_li2 .imag-carrusel2 {
+  .carrusel-portada {
+    height: 440px; }
+    .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
       width: 400px;
+      font-size: 40px;
+      left: 30px; }
+    .carrusel-portada ul div .img-nube {
+      width: 140px;
+      height: 140px;
+      top: 260px;
+      left: 90px; }
+    .carrusel-portada ul div .carrusel-imagenp {
+      width: 140px;
+      height: 140px;
+      top: 220px;
+      left: 90px; }
+    .carrusel-portada ul li:first-of-type {
+      width: 430px;
+      margin-left: 0px;
       height: 420px; }
-    .carrusel-portada ul .carru_li2 p {
-      width: 300px;
-      font-size: 22px;
-      left: 135%; }
-  .carrusel-portada ul .carru_li3 {
-    margin-left: 20px;
-    width: 440px;
-    height: 420px; }
-    .carrusel-portada ul .carru_li3 .imag-carrusel3 {
+      .carrusel-portada ul li:first-of-type .imag-carrusel1 {
+        width: 430px;
+        height: 420px; }
+    .carrusel-portada ul .carru_li2 {
+      width: 400px;
+      margin-left: -100px;
+      margin-right: 150px;
+      height: 420px; }
+      .carrusel-portada ul .carru_li2 .imag-carrusel2 {
+        width: 400px;
+        height: 420px; }
+      .carrusel-portada ul .carru_li2 p {
+        width: 300px;
+        font-size: 22px;
+        left: 135%; }
+    .carrusel-portada ul .carru_li3 {
+      margin-left: 20px;
       width: 440px;
       height: 420px; }
-    .carrusel-portada ul .carru_li3 p {
-      width: 340px;
-      color: white;
-      font-size: 16px;
-      left: 270%;
-      top: 220px; }
+      .carrusel-portada ul .carru_li3 .imag-carrusel3 {
+        width: 440px;
+        height: 420px; }
+      .carrusel-portada ul .carru_li3 p {
+        width: 340px;
+        color: white;
+        font-size: 16px;
+        left: 270%;
+        top: 220px; }
   .patita-intermedia div:nth-child(1) {
     width: 180px;
     left: 53%; }
