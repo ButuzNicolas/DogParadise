@@ -2179,6 +2179,19 @@ footer {
   .patita-intermedia div:nth-child(2) {
     left: 17%; } }
 
+@media screen and (max-width: 1366px) {
+  .modal-bank {
+    width: 90%;
+    margin-left: 30px; }
+    .modal-bank .modal-header h2 {
+      left: 30%; }
+    .modal-bank .modal-dialog .promo-bank {
+      margin-left: -40px; }
+    .modal-bank .modal-dialog .promo-bank2 {
+      margin-left: -40px; }
+    .modal-bank .modal-dialog .promo-bank3 {
+      margin-left: -40px; } }
+
 @media screen and (max-width: 1360px) {
   .carrusel-portada ul li:first-of-type {
     width: 1200px;
@@ -2796,6 +2809,15 @@ footer {
       border-left: none;
       border-bottom: solid 5px white;
       border-top: solid 5px white; } }
+
+@media screen and (max-width: 1105px) {
+  .carrito-a {
+    margin-left: 260px; }
+    .carrito-a div {
+      margin-left: 5px; }
+      .carrito-a div div {
+        width: 600px;
+        margin-left: 0px; } }
 
 @media screen and (max-width: 1090px) {
   .carrusel-portada ul .carrusel-h2 {
@@ -3462,7 +3484,23 @@ footer {
   footer .social a .bi-facebook {
     margin-left: 230px; }
   .footer-secundario .social a .bi-facebook {
-    margin-left: 230px; } }
+    margin-left: 230px; }
+  .seccion-envios {
+    border-radius: 18px;
+    padding: 10px; }
+    .seccion-envios div {
+      margin: 0; }
+      .seccion-envios div h2 {
+        font-size: 30px; } }
+
+@media screen and (max-width: 873px) {
+  .carrito-a {
+    margin-left: 120px; }
+    .carrito-a div {
+      margin-left: 5px; }
+      .carrito-a div div {
+        width: 600px;
+        margin-left: 0px; } }
 
 @media screen and (max-width: 862px) {
   header .header-superior .menu-contenedor .titulo-dg {
@@ -3981,9 +4019,9 @@ footer {
     .modal-bank .modal-dialog .promo-bank3 {
       margin-left: -40px; }
   .carrito-a div {
-    margin-left: 80px; }
+    margin-left: 0px; }
     .carrito-a div div {
-      width: 620px;
+      width: 600px;
       margin-left: 0px; } }
 
 @media screen and (max-width: 793px) {
@@ -4255,6 +4293,15 @@ footer {
     .seccion-medidas2 div img {
       width: 90%; } }
 
+@media screen and (max-width: 724px) {
+  .carrito-a {
+    margin-left: 40px; }
+    .carrito-a div {
+      margin-left: 5px; }
+      .carrito-a div div {
+        width: 500px;
+        margin-left: 0px; } }
+
 @media screen and (max-width: 710px) {
   header .header-superior .menu-contenedor .titulo-dg {
     left: 210px; }
@@ -4317,6 +4364,49 @@ footer {
     margin-left: 150px; }
   .footer-secundario .social a .bi-facebook {
     margin-left: 150px; } }
+
+@media screen and (max-width: 700px) {
+  .modal-bank {
+    height: 900px;
+    width: 90%;
+    margin-left: 30px; }
+    .modal-bank .modal-header h2 {
+      left: 25%; }
+    .modal-bank .modal-dialog .promo-bank {
+      margin-left: 0px; }
+      .modal-bank .modal-dialog .promo-bank h2 {
+        font-size: 20px; }
+      .modal-bank .modal-dialog .promo-bank p {
+        width: 80%; }
+    .modal-bank .modal-dialog .promo-bank2 {
+      margin-left: 0px; }
+      .modal-bank .modal-dialog .promo-bank2 h2 {
+        font-size: 20px; }
+        .modal-bank .modal-dialog .promo-bank2 h2 span {
+          font-size: 20px; }
+      .modal-bank .modal-dialog .promo-bank2 p {
+        width: 80%; }
+      .modal-bank .modal-dialog .promo-bank2 div {
+        grid-template-columns: repeat(4, 20%); }
+    .modal-bank .modal-dialog .promo-bank3 {
+      margin-left: 0px; }
+      .modal-bank .modal-dialog .promo-bank3 h2 {
+        font-size: 20px; }
+        .modal-bank .modal-dialog .promo-bank3 h2 span {
+          font-size: 20px; }
+  .modal-footer {
+    position: relative;
+    top: 100px; }
+  .carrito-a {
+    margin-left: 40px; }
+    .carrito-a div {
+      margin-left: 5px; }
+      .carrito-a div div {
+        width: 500px;
+        margin-left: 0px; }
+        .carrito-a div div .footer-carrito {
+          position: relative;
+          top: 0px; } }
 
 @media screen and (max-width: 690px) {
   header .header-superior .menu-contenedor .titulo-dg {
@@ -4747,6 +4837,42 @@ footer {
   .footer-secundario .social a .bi-facebook {
     margin-left: 80px; } }
 
+@media screen and (max-width: 574px) {
+  .modal-bank {
+    height: 900px;
+    width: 90%;
+    margin-left: 30px; }
+    .modal-bank .modal-header h2 {
+      left: 0; }
+    .modal-bank .modal-dialog .promo-bank {
+      margin-bottom: 40px;
+      margin-left: 10px; }
+      .modal-bank .modal-dialog .promo-bank h2 {
+        font-size: 20px; }
+      .modal-bank .modal-dialog .promo-bank p {
+        width: 60%; }
+    .modal-bank .modal-dialog .promo-bank2 {
+      margin-left: 10px;
+      margin-bottom: 40px; }
+      .modal-bank .modal-dialog .promo-bank2 h2 {
+        font-size: 15px; }
+        .modal-bank .modal-dialog .promo-bank2 h2 span {
+          font-size: 15px; }
+      .modal-bank .modal-dialog .promo-bank2 p {
+        width: 80%; }
+      .modal-bank .modal-dialog .promo-bank2 div {
+        grid-template-columns: repeat(4, 20%); }
+    .modal-bank .modal-dialog .promo-bank3 {
+      grid-template-columns: repeat(2, 20%);
+      margin-left: 10px; }
+      .modal-bank .modal-dialog .promo-bank3 h2 {
+        font-size: 15px; }
+        .modal-bank .modal-dialog .promo-bank3 h2 span {
+          font-size: 15px; }
+  .modal-footer {
+    position: relative;
+    top: 130px; } }
+
 @media screen and (max-width: 560px) {
   header .header-superior .menu-contenedor .titulo-dg {
     left: 120px; }
@@ -4816,7 +4942,21 @@ footer {
   .seccion-medidas2 {
     padding: 10px; }
     .seccion-medidas2 div img {
-      width: 90%; } }
+      width: 90%; }
+  .seccion-envios div p {
+    margin: 10px; } }
+
+@media screen and (max-width: 548px) {
+  .carrito-a {
+    margin-left: 0px; }
+    .carrito-a div {
+      margin-left: 5px; }
+      .carrito-a div div {
+        width: 440px;
+        margin-left: 0px; }
+        .carrito-a div div .footer-carrito {
+          position: relative;
+          top: 0px; } }
 
 @media screen and (max-width: 530px) {
   .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -5247,7 +5387,17 @@ footer {
     .acerca-nosotros .nosotros-img {
       height: 340px;
       top: 40px;
-      left: 24px; } }
+      left: 24px; }
+  .carrito-a {
+    margin-left: 0px; }
+    .carrito-a div {
+      margin-left: 5px; }
+      .carrito-a div div {
+        width: 400px;
+        margin-left: 0px; }
+        .carrito-a div div .footer-carrito {
+          position: relative;
+          top: 0px; } }
 
 @media screen and (max-width: 442px) {
   .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -5312,6 +5462,15 @@ footer {
   .footer-secundario .social a {
     margin-right: 20px; } }
 
+@media screen and (max-width: 440px) {
+  .modal-bank {
+    height: 900px;
+    width: 90%;
+    margin-left: 30px; }
+    .modal-bank .modal-header h2 {
+      left: 0;
+      font-size: 20px; } }
+
 @media screen and (max-width: 439px) {
   .acerca-nosotros {
     height: 1510px;
@@ -5323,7 +5482,42 @@ footer {
     .acerca-nosotros .nosotros-img {
       height: 340px;
       top: 40px;
-      left: 24px; } }
+      left: 24px; }
+  .modal-bank {
+    height: 980px;
+    width: 90%;
+    margin-left: 30px; }
+    .modal-bank .modal-dialog .promo-bank {
+      margin-bottom: 40px;
+      margin-left: 10px; }
+      .modal-bank .modal-dialog .promo-bank h2 {
+        font-size: 20px; }
+      .modal-bank .modal-dialog .promo-bank p {
+        width: 50%; }
+    .modal-bank .modal-dialog .promo-bank2 {
+      margin-left: 10px;
+      margin-bottom: 40px; }
+      .modal-bank .modal-dialog .promo-bank2 h2 {
+        font-size: 15px;
+        width: 30%; }
+        .modal-bank .modal-dialog .promo-bank2 h2 span {
+          font-size: 15px; }
+      .modal-bank .modal-dialog .promo-bank2 p {
+        width: 30%; }
+      .modal-bank .modal-dialog .promo-bank2 div {
+        grid-template-columns: repeat(4, 20%); }
+    .modal-bank .modal-dialog .promo-bank3 {
+      margin-left: 10px; }
+      .modal-bank .modal-dialog .promo-bank3 h2 {
+        font-size: 15px;
+        width: 30%; }
+        .modal-bank .modal-dialog .promo-bank3 h2 span {
+          font-size: 15px; }
+      .modal-bank .modal-dialog .promo-bank3 .promo-bank__img3 {
+        grid-template-columns: repeat(2, 40%); }
+  .modal-footer {
+    position: relative;
+    top: 220px; } }
 
 @media screen and (max-width: 430px) {
   .patita-intermedia div:nth-child(1) {
@@ -5537,7 +5731,19 @@ footer {
     .acerca-nosotros .nosotros-img {
       height: 300px;
       top: 94px;
-      left: 24px; } }
+      left: 24px; }
+  .carrito-a {
+    margin-left: 0px; }
+    .carrito-a div {
+      margin-left: 5px; }
+      .carrito-a div div {
+        width: 380px;
+        margin-left: 0px; }
+        .carrito-a div div .modal-carrito {
+          font-size: 16px; }
+        .carrito-a div div .footer-carrito {
+          position: relative;
+          top: 0px; } }
 
 @media screen and (max-width: 400px) {
   header .header-superior .menu-contenedor .menu label .icon__menu {
