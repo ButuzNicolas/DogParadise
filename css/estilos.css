@@ -1012,7 +1012,7 @@ footer {
     margin-top: 30px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(6, 15.5%);
+    grid-template-columns: repeat(5, 300px);
     justify-content: space-between;
     border-end-end-radius: 18px;
     border-end-start-radius: 18px; }
@@ -1105,12 +1105,12 @@ footer {
     padding-bottom: 10px;
     margin-top: 30px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 300px);
+    display: flex;
     justify-content: space-around;
     border-end-end-radius: 18px;
     border-end-start-radius: 18px; }
     .box-card-pretales div article {
+      width: 300px;
       margin-left: 10px; }
       .box-card-pretales div article:hover {
         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
@@ -2220,6 +2220,14 @@ footer {
     margin-left: 120px; }
   .footer-secundario .social a .bi-facebook {
     margin-left: 120px; } }
+
+@media screen and (max-width: 1340px) {
+  .box-card-pretales div {
+    display: grid;
+    grid-template-columns: repeat(4, 290px); }
+    .box-card-pretales div article {
+      width: 290px;
+      margin-left: 0; } }
 
 @media screen and (max-width: 1330px) {
   nav ul .nav__ul__li1 {
