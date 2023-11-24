@@ -18,7 +18,7 @@
         <div class="header-superior">
             <img src="../img/logo-titulo.png" alt="">
             <div class="menu-contenedor">
-                <h1>DogParadise</h1><p>!</p>
+                <a href="../index.html" class="titulo-dg"><h1>DogParadise</h1></a>
                 <img class="logo-dentro" src="../img/perro---logo.png" alt="">
                 <div class="menu">
                     <input type="checkbox" id="check__menu">
@@ -42,6 +42,7 @@
                             <li class="nav__ul__li4"><a class="boton-cf" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultas Frecuentes</a></li>
                             <li class="nav__ul__li5"><a href="../pages/cambio-devolucion.html" target="_blank">Cambio Devoluciones</a></li>
                             <li class="nav__ul__li6"><a href="../pages/envios.html" target="_blank">Envios</a></li>
+                            <li class="nav__ul__li7"><a href="../index.html">Volver al Inicio</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -299,7 +300,7 @@
         <section>
             <div class="modal fade" id="exampleModal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-atencion">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h2 class="modal-title fs-5" id="exampleModalLabel">New message</h2>
@@ -343,9 +344,29 @@
 						
 					</form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send message</button>
+                        <div class="modal-footer footer-atencion">
+                            <button type="button" class="btn botonp-footer" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn botons-footer">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="modal fade carrito-a" id="exampleModal-producto" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header header-carrito">
+                            <h2 class="modal-title" id="exampleModalLabel">Producto</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body modal-carrito">
+                            <p>Por el momento las compras no se encuentran habilitadas, pruebe en otro momento.</p>
+                        </div>
+                        <div class="modal-footer footer-carrito">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
+                            <button type="button" class="btn btn-primary">Ver Carrito</button>
                         </div>
                     </div>
                 </div>

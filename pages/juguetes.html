@@ -17,7 +17,7 @@
     <header>
         <div class="header-superior">
             <div class="menu-contenedor">
-                <h1>DogParadise</h1><p>!</p>
+                <a href="../index.html" class="titulo-dg"><h1>DogParadise</h1></a>
                 <div class="menu">
                     <input type="checkbox" id="check__menu">
                     <label id="#label__check" for="check__menu">
@@ -40,6 +40,7 @@
                             <li class="nav__ul__li4"><a class="boton-cf" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Consultas Frecuentes</a></li>
                             <li class="nav__ul__li5"><a href="../pages/cambio-devolucion.html" target="_blank">Cambio Devoluciones</a></li>
                             <li class="nav__ul__li6"><a href="../pages/envios.html" target="_blank">Envios</a></li>
+                            <li class="nav__ul__li7"><a href="../index.html">Volver al Inicio</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -231,7 +232,7 @@
         <section class="selecciones-secundario selecciones">
             <div class="etiquetas-juegos">
                 
-                <a href="/pages/envios.html" target="_blank"><img src="../img/delivery.png" alt="imagen de enlace a delivery"></a>
+                <a href="../pages/envios.html" target="_blank"><img src="../img/delivery.png" alt="imagen de enlace a delivery"></a>
                 <h2>ENVÍOS GRATIS</h2>
                 <p>
                     En compras superiores a $5000.
@@ -239,7 +240,7 @@
             </div>
             <div class="etiquetas-juegos">
                 
-                <a href="./pages/cambio-devolucion.html" target="_blank"><img src="../img/return-box.png" alt="imagen de enlace a seccion devoluciones"></a>
+                <a href="../pages/cambio-devolucion.html" target="_blank"><img src="../img/return-box.png" alt="imagen de enlace a seccion devoluciones"></a>
                 <h2>DEVOLUCIONES / CAMBIOS</h2>
                 <p>
                     En caso de defectos de fabricación o talle mal elegido se realiza el cambio o devolucipon del dinero.
@@ -404,7 +405,7 @@
         <section>
             <div class="modal fade" id="exampleModal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-atencion">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h2 class="modal-title fs-5" id="exampleModalLabel">New message</h2>
@@ -412,45 +413,65 @@
                         </div>
                         <div class="modal-body">
                             <h2>Escríbenos y en breve los pondremos en contacto contigo</h2>
-                    <form action="submeter-formulario.php" method="post">				
-                                <p>
-                                    <label for="nombre" class="colocar_nombre">Nombre
-                                        <span class="obligatorio">*</span>
-                                    </label>
-                                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                                </p>
-                                <p>
-                                    <label for="email" class="colocar_email">Email
-                                        <span class="obligatorio">*</span>
-                                    </label>
-                                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                                </p>
-                                <p>
-                                    <label for="telefone" class="colocar_telefono">Teléfono
-                                    </label>
-                                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                                </p>		
-                                <p>
-                                    <label for="asunto" class="colocar_asunto">Asunto
-                                        <span class="obligatorio">*</span>
-                                    </label>
-                                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                                </p>		
-                                <p>
-                                    <label for="mensaje" class="colocar_mensaje">Mensaje
-                                        <span class="obligatorio">*</span>
-                                    </label>                     
+					<form action="submeter-formulario.php" method="post">				
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+								<p>
+									<label for="telefone" class="colocar_telefono">Teléfono
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>		
+								<p>
+									<label for="asunto" class="colocar_asunto">Asunto
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+								</p>		
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
                                 <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
                                 </p>	  								
-                                <p class="aviso">
-                                    <span class="obligatorio"> * </span>los campos son obligatorios.
-                                </p>					
-                        
-                    </form>
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					</form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send message</button>
+                        <div class="modal-footer footer-atencion">
+                            <button type="button" class="btn botonp-footer" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn botons-footer">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="modal fade carrito-a" id="exampleModal-producto" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header header-carrito">
+                            <h2 class="modal-title" id="exampleModalLabel">Producto</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body modal-carrito">
+                            <p>Por el momento las compras no se encuentran habilitadas, pruebe en otro momento.</p>
+                        </div>
+                        <div class="modal-footer footer-carrito">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
+                            <button type="button" class="btn btn-primary">Ver Carrito</button>
                         </div>
                     </div>
                 </div>
@@ -481,7 +502,7 @@
             <a href="../pages/medidas.html" target="_blank">Como medir a tu mascota</a>
             <a href="#bank" class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Formas
                 de pago</a>
-            <a href="../pages/envios.html">Envios</a>
+            <a href="../pages/envios.html" target="_blank">Envios</a>
             <a href="../pages/cambio-devolucion.html" target="_blank">Cambios y devuluciones</a>
             <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal"
                 data-bs-target="#exampleModal-contacto" data-bs-whatever="@mdo">Atención al Cliente</a>
