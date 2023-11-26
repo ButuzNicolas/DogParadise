@@ -1,5 +1,16 @@
 @charset "UTF-8";
 /*----------------------VARIABLES--------------------*/
+/* var titulo */
+/* fin var titulo */
+/* var carrusel */
+/* fin var carrusel */
+/* var cards */
+/* fin var cards */
+/* var nosotros */
+/* fin var nosotros */
+/* var footer */
+/* fin var footer */
+/*--------------------------------- FIN VARIABLES ---------------------*/
 /*----------------------EXTENDS-----------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Libre+Baskerville:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Gabarito&family=Libre+Baskerville:wght@700&display=swap");
@@ -83,6 +94,8 @@ nav ul .nav__ul__li1 a:hover, nav ul .nav__ul__li2 a:hover, nav ul .nav__ul__li3
   border: 3px solid #555;
   position: relative; }
 
+/*----------------------- FIN EXTENDS ---------------------*/
+/*----------------------- MIXINS -------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -120,7 +133,7 @@ header {
           height: 100%;
           user-select: none;
           font-size: 60px;
-          font-family: 'Alumni Sans Inline One', sans-serif;
+          font-family: "Alumni Sans Inline One";
           text-align: center;
           justify-content: center;
           position: relative;
@@ -131,7 +144,7 @@ header {
           height: 100%;
           content: "!";
           font-size: 60px;
-          font-family: 'Alumni Sans Inline One', sans-serif;
+          font-family: "Alumni Sans Inline One";
           justify-content: center;
           position: relative;
           animation-name: parpadeo;
@@ -301,7 +314,7 @@ main {
     animation: cambio 50s infinite alternate linear; }
     .carrusel-portada ul .carrusel-h2 {
       color: black;
-      font-family: 'DM Serif Display', serif;
+      font-family: "DM Serif Display";
       font-style: italic;
       position: absolute;
       left: 180px;
@@ -402,7 +415,7 @@ main {
 
 .box-cards h2, .box-cards .fondoh2 {
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans";
   font-style: italic;
   font-weight: 500px;
   font-size: 40px;
@@ -412,15 +425,15 @@ main {
   width: 100%;
   height: 100px;
   bottom: 20px;
-  display: flex;
-  flex-direction: column;
   padding-bottom: 45px;
   position: relative;
   border-start-start-radius: 18px;
   border-start-end-radius: 18px;
-  justify-content: center;
   text-decoration: underline;
-  user-select: none; }
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 .box-cards div, .box-cards .tarjetas-presentacion {
   background: #cdb2d6;
@@ -429,11 +442,11 @@ main {
   padding-bottom: 10px;
   margin-top: 30px;
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 300px);
   grid-row-gap: 20px;
   border-end-end-radius: 18px;
   border-end-start-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
   justify-content: space-around; }
   .box-cards div article, .box-cards .tarjetas-presentacion article {
     margin-left: 16px; }
@@ -449,8 +462,8 @@ main {
       background-color: white;
       margin-left: 10%;
       display: flex;
+      justify-content: center;
       flex-direction: column;
-      align-items: center;
       margin-bottom: 10px;
       width: 80%;
       border-top: solid 2px black;
@@ -460,17 +473,17 @@ main {
         font-weight: 400;
         margin-bottom: 15px;
         text-align: center;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: "DM Serif Display";
         font-style: italic;
         font-weight: 500px; }
         .box-cards div article div h3 p, .box-cards div article .contenido h3 p, .box-cards .tarjetas-presentacion article div h3 p, .box-cards .tarjetas-presentacion article .contenido h3 p {
           width: 100%;
-          font-family: 'DM Serif Display', serif;
+          font-family: "DM Serif Display";
           font-size: 25px;
           margin-bottom: 9px; }
       .box-cards div article div a, .box-cards div article .contenido a, .box-cards .tarjetas-presentacion article div a, .box-cards .tarjetas-presentacion article .contenido a {
         width: 80%;
-        margin-left: 8%; }
+        margin-left: 17%; }
         .box-cards div article div a p, .box-cards div article .contenido a p, .box-cards .tarjetas-presentacion article div a p, .box-cards .tarjetas-presentacion article .contenido a p {
           font-size: 15px;
           text-decoration: none;
@@ -483,7 +496,7 @@ main {
           transition: all 400ms ease;
           align-items: center;
           align-self: center;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-family: "DM Serif Display";
           font-style: italic; }
           .box-cards div article div a p:hover, .box-cards div article .contenido a p:hover, .box-cards .tarjetas-presentacion article div a p:hover, .box-cards .tarjetas-presentacion article .contenido a p:hover {
             background: #2499c7;
@@ -508,7 +521,7 @@ main {
     margin-left: 30%;
     color: #2499c7;
     text-align: center;
-    font-family: 'DM Serif Display', serif;
+    font-family: "DM Serif Display";
     font-style: italic;
     font-weight: 500px;
     font-size: 55px; }
@@ -516,7 +529,7 @@ main {
     width: 30%;
     margin-bottom: 65px;
     margin-left: 30%;
-    font-family: 'DM Serif Display', serif;
+    font-family: "DM Serif Display";
     font-style: italic;
     font-weight: 500px;
     font-size: 25px; }
@@ -533,32 +546,32 @@ main {
       text-align: start;
       font-size: 15px;
       list-style: none;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      font-family: "Lucida Sans"; }
     .acerca-nosotros ol .nosotros-lista-1 {
       height: 40px;
       width: 920px;
       margin: 20px 0px 24px 0px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      font-family: "Lucida Sans"; }
     .acerca-nosotros ol .nosotros-lista-2 {
       height: 60px;
       width: 1000px;
       margin: 8px 0px 24px 0px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      font-family: "Lucida Sans"; }
     .acerca-nosotros ol .nosotros-lista-3 {
       height: 70px;
       width: 1000px;
       margin: 8px 0px 24px 0px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      font-family: "Lucida Sans"; }
     .acerca-nosotros ol .nosotros-lista-4 {
       height: 50px;
       width: 950px;
       margin: 8px 0px 18px 0px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      font-family: "Lucida Sans"; }
     .acerca-nosotros ol .nosotros-lista-5 {
       height: 50px;
       width: 600px;
       margin: 8px 0px 4px 0px;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      font-family: "Lucida Sans"; }
   .acerca-nosotros .nosotros-img {
     display: flex;
     position: relative;
@@ -672,7 +685,7 @@ footer {
     footer .social h2 {
       color: white;
       text-align: center;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: "Times New Roman";
       font-style: italic;
       font-weight: 250px;
       margin-bottom: 25px;
@@ -715,7 +728,7 @@ footer {
     footer .atajos-web h2 {
       margin-bottom: 15px;
       text-align: center;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: "Times New Roman";
       font-style: italic;
       font-weight: 250px;
       color: white;
@@ -741,7 +754,6 @@ footer {
     height: 358.5px;
     width: 1fr;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: 250px;
     border-left: solid white;
@@ -749,7 +761,8 @@ footer {
     footer .ubi-map h2 {
       margin-bottom: 10px;
       color: white;
-      text-decoration: underline; }
+      text-decoration: underline;
+      font-family: "Times New Roman"; }
     footer .ubi-map iframe {
       height: 250px;
       width: 550px;
@@ -982,14 +995,14 @@ footer {
   height: auto;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center; }
   .box-card-juguetes h2 {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans";
     font-style: italic;
     font-weight: 500px;
     font-size: 40px;
@@ -1000,10 +1013,10 @@ footer {
     height: 90px;
     bottom: 20px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding-bottom: 45px;
     position: relative;
-    justify-content: center;
     user-select: none; }
   .box-card-juguetes div {
     background: #cdb2d6;
@@ -1014,7 +1027,7 @@ footer {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 300px);
-    justify-content: space-between;
+    justify-content: space-around;
     border-end-end-radius: 18px;
     border-end-start-radius: 18px; }
     .box-card-juguetes div article {
@@ -1031,8 +1044,8 @@ footer {
         background-color: white;
         margin-left: 10%;
         display: flex;
+        justify-content: center;
         flex-direction: column;
-        align-items: center;
         margin-bottom: 10px;
         width: 80%;
         border-top: solid 2px black; }
@@ -1041,17 +1054,17 @@ footer {
           font-weight: 400;
           margin-bottom: 15px;
           text-align: center;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-family: "DM Serif Display";
           font-style: italic;
           font-weight: 500px; }
           .box-card-juguetes div article div h3 p {
             width: 100%;
-            font-family: 'DM Serif Display', serif;
+            font-family: "DM Serif Display";
             font-size: 25px;
             margin-bottom: 9px; }
         .box-card-juguetes div article div a {
           width: 80%;
-          margin-left: 0; }
+          margin-left: 9%; }
           .box-card-juguetes div article div a p {
             font-size: 15px;
             text-decoration: none;
@@ -1064,7 +1077,7 @@ footer {
             transition: all 400ms ease;
             align-items: center;
             align-self: center;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: "DM Serif Display";
             font-style: italic; }
             .box-card-juguetes div article div a p:hover {
               background: #2499c7;
@@ -1074,14 +1087,14 @@ footer {
   height: auto;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center; }
   .box-card-pretales h2 {
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans";
     font-style: italic;
     font-weight: 500px;
     font-size: 40px;
@@ -1092,10 +1105,10 @@ footer {
     height: 90px;
     bottom: 20px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding-bottom: 45px;
     position: relative;
-    justify-content: center;
     user-select: none;
     border-top-right-radius: 18px;
     border-top-left-radius: 18px; }
@@ -1125,8 +1138,8 @@ footer {
         background-color: white;
         margin-left: 10%;
         display: flex;
+        justify-content: center;
         flex-direction: column;
-        align-items: center;
         margin-bottom: 10px;
         width: 80%;
         border-top: solid 2px black; }
@@ -1135,17 +1148,17 @@ footer {
           font-weight: 400;
           margin-bottom: 15px;
           text-align: center;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-family: "DM Serif Display";
           font-style: italic;
           font-weight: 500px; }
           .box-card-pretales div article div h3 p {
             width: 100%;
-            font-family: 'DM Serif Display', serif;
+            font-family: "DM Serif Display";
             font-size: 25px;
             margin-bottom: 9px; }
         .box-card-pretales div article div a {
           width: 80%;
-          margin-left: 0; }
+          margin-left: 9%; }
           .box-card-pretales div article div a p {
             font-size: 15px;
             text-decoration: none;
@@ -1158,7 +1171,7 @@ footer {
             transition: all 400ms ease;
             align-items: center;
             align-self: center;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: "DM Serif Display";
             font-style: italic; }
             .box-card-pretales div article div a p:hover {
               background: #2499c7;
@@ -1237,9 +1250,9 @@ footer {
   width: 100%;
   border-radius: 30px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  text-align: center;
-  justify-content: center; }
+  text-align: center; }
   .box-cambio h2 {
     width: 100%;
     font-size: 40px;
@@ -4581,7 +4594,28 @@ footer {
   .footer-secundario .social a .bi-facebook {
     margin-left: 120px; }
   .img-juegos img {
-    animation: girar-tres 3.6s alternate infinite ease-out; } }
+    animation: girar-tres 3.6s alternate infinite ease-out; }
+  .box-card-pretales .tarjetas-presentacion-pretales {
+    grid-template-columns: repeat(2, 200px); }
+    .box-card-pretales .tarjetas-presentacion-pretales article {
+      width: 200px;
+      height: 380px;
+      margin-left: 0px; }
+      .box-card-pretales .tarjetas-presentacion-pretales article figure {
+        height: 46%; }
+        .box-card-pretales .tarjetas-presentacion-pretales article figure img {
+          width: 100%;
+          margin-left: 0; }
+      .box-card-pretales .tarjetas-presentacion-pretales article div, .box-card-pretales .tarjetas-presentacion-pretales article .contenido {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0; }
+        .box-card-pretales .tarjetas-presentacion-pretales article div h3 p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido h3 p {
+          font-size: 18px; }
+        .box-card-pretales .tarjetas-presentacion-pretales article div a, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a {
+          margin-left: 10%; }
+          .box-card-pretales .tarjetas-presentacion-pretales article div a p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a p {
+            font-size: 12px; } }
 
 @media screen and (max-width: 630px) {
   .carrusel-portada ul h2, .carrusel-portada ul .carrusel-h2 {
@@ -4663,29 +4697,8 @@ footer {
         .box-card-juguetes .tarjetas-presentacion-juguetes article div h3 p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido h3 p {
           font-size: 18px; }
         .box-card-juguetes .tarjetas-presentacion-juguetes article div a, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a {
-          margin-left: 0; }
+          margin-left: 10%; }
           .box-card-juguetes .tarjetas-presentacion-juguetes article div a p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a p {
-            font-size: 12px; }
-  .box-card-pretales .tarjetas-presentacion-pretales {
-    grid-template-columns: repeat(2, 200px); }
-    .box-card-pretales .tarjetas-presentacion-pretales article {
-      width: 200px;
-      height: 380px;
-      margin-left: 0px; }
-      .box-card-pretales .tarjetas-presentacion-pretales article figure {
-        height: 46%; }
-        .box-card-pretales .tarjetas-presentacion-pretales article figure img {
-          width: 100%;
-          margin-left: 0; }
-      .box-card-pretales .tarjetas-presentacion-pretales article div, .box-card-pretales .tarjetas-presentacion-pretales article .contenido {
-        width: 100%;
-        margin-top: 0;
-        margin-left: 0; }
-        .box-card-pretales .tarjetas-presentacion-pretales article div h3 p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido h3 p {
-          font-size: 18px; }
-        .box-card-pretales .tarjetas-presentacion-pretales article div a, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a {
-          margin-left: 0; }
-          .box-card-pretales .tarjetas-presentacion-pretales article div a p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a p {
             font-size: 12px; } }
 
 @media screen and (max-width: 600px) {
@@ -4761,7 +4774,7 @@ footer {
         .box-cards .tarjetas-presentacion article div h3 p, .box-cards .tarjetas-presentacion article .contenido h3 p {
           font-size: 18px; }
         .box-cards .tarjetas-presentacion article div a, .box-cards .tarjetas-presentacion article .contenido a {
-          margin-left: 16%; }
+          margin-left: 22%; }
           .box-cards .tarjetas-presentacion article div a p, .box-cards .tarjetas-presentacion article .contenido a p {
             font-size: 12px; }
   .acerca-nosotros {
@@ -5225,7 +5238,7 @@ footer {
         .box-card-pretales .tarjetas-presentacion-pretales article div h3 p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido h3 p {
           font-size: 18px; }
         .box-card-pretales .tarjetas-presentacion-pretales article div a, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a {
-          margin-left: 0; }
+          margin-left: 10%; }
           .box-card-pretales .tarjetas-presentacion-pretales article div a p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a p {
             font-size: 12px; } }
 
@@ -5274,7 +5287,7 @@ footer {
         .box-card-juguetes .tarjetas-presentacion-juguetes article div h3 p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido h3 p {
           font-size: 18px; }
         .box-card-juguetes .tarjetas-presentacion-juguetes article div a, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a {
-          margin-left: 0; }
+          margin-left: 10%; }
           .box-card-juguetes .tarjetas-presentacion-juguetes article div a p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a p {
             font-size: 12px; } }
 
@@ -5360,7 +5373,7 @@ footer {
         .box-cards .tarjetas-presentacion article div h3 p, .box-cards .tarjetas-presentacion article .contenido h3 p {
           font-size: 18px; }
         .box-cards .tarjetas-presentacion article div a, .box-cards .tarjetas-presentacion article .contenido a {
-          margin-left: 16%; }
+          margin-left: 20%; }
           .box-cards .tarjetas-presentacion article div a p, .box-cards .tarjetas-presentacion article .contenido a p {
             font-size: 12px; }
   .acerca-nosotros {
@@ -5644,7 +5657,7 @@ footer {
         .box-card-juguetes .tarjetas-presentacion-juguetes article div h3 p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido h3 p {
           font-size: 18px; }
         .box-card-juguetes .tarjetas-presentacion-juguetes article div a, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a {
-          margin-left: 0; }
+          margin-left: 10%; }
           .box-card-juguetes .tarjetas-presentacion-juguetes article div a p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a p {
             font-size: 12px; }
   .box-card-pretales .tarjetas-presentacion-pretales {
@@ -5665,7 +5678,7 @@ footer {
         .box-card-pretales .tarjetas-presentacion-pretales article div h3 p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido h3 p {
           font-size: 18px; }
         .box-card-pretales .tarjetas-presentacion-pretales article div a, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a {
-          margin-left: 0; }
+          margin-left: 10%; }
           .box-card-pretales .tarjetas-presentacion-pretales article div a p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a p {
             font-size: 12px; } }
 
@@ -5727,7 +5740,7 @@ footer {
     .box-cards .tarjetas-presentacion article {
       width: 170px; }
       .box-cards .tarjetas-presentacion article .contenido a {
-        margin-left: 8%; } }
+        margin-left: 18%; } }
 
 @media screen and (max-width: 405px) {
   .acerca-nosotros {
@@ -5786,7 +5799,7 @@ footer {
       height: 370px;
       width: 160px; }
       .box-cards .tarjetas-presentacion article .contenido a {
-        margin-left: 4%; } }
+        margin-left: 15%; } }
 
 @media screen and (max-width: 385px) {
   header .header-superior .menu-contenedor .menu label .icon__menu {
@@ -5966,7 +5979,7 @@ footer {
           .box-cards .tarjetas-presentacion article div h3 p, .box-cards .tarjetas-presentacion article .contenido h3 p {
             font-size: 18px; }
         .box-cards .tarjetas-presentacion article div a, .box-cards .tarjetas-presentacion article .contenido a {
-          margin-left: 2%; }
+          margin-left: 14%; }
           .box-cards .tarjetas-presentacion article div a p, .box-cards .tarjetas-presentacion article .contenido a p {
             font-size: 12px; }
   .acerca-nosotros {
@@ -6079,7 +6092,7 @@ footer {
           .box-card-juguetes .tarjetas-presentacion-juguetes article div h3 p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido h3 p {
             font-size: 18px; }
         .box-card-juguetes .tarjetas-presentacion-juguetes article div a, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a {
-          margin-left: 2%; }
+          margin-left: 10%; }
           .box-card-juguetes .tarjetas-presentacion-juguetes article div a p, .box-card-juguetes .tarjetas-presentacion-juguetes article .contenido a p {
             font-size: 12px; }
   .box-card-pretales h2 {
@@ -6103,7 +6116,7 @@ footer {
           .box-card-pretales .tarjetas-presentacion-pretales article div h3 p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido h3 p {
             font-size: 18px; }
         .box-card-pretales .tarjetas-presentacion-pretales article div a, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a {
-          margin-left: 2%; }
+          margin-left: 10%; }
           .box-card-pretales .tarjetas-presentacion-pretales article div a p, .box-card-pretales .tarjetas-presentacion-pretales article .contenido a p {
             font-size: 12px; }
   .modal-bank {
