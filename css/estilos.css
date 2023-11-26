@@ -453,7 +453,8 @@ main {
       align-items: center;
       margin-bottom: 10px;
       width: 80%;
-      border-top: solid 2px black; }
+      border-top: solid 2px black;
+      margin-top: 0; }
       .box-cards div article div h3, .box-cards div article .contenido h3, .box-cards .tarjetas-presentacion article div h3, .box-cards .tarjetas-presentacion article .contenido h3 {
         width: 100%;
         font-weight: 400;
