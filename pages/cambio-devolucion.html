@@ -16,10 +16,8 @@
 <body>
     <header>
         <div class="header-superior">
-            <img src="../img/logo-titulo.png" alt="">
             <div class="menu-contenedor">
                 <a href="../index.html" class="titulo-dg"><h1>DogParadise</h1></a>
-                <img class="logo-dentro" src="../img/perro---logo.png" alt="">
                 <div class="menu">
                     <input type="checkbox" id="check__menu">
                     <label id="#label__check" for="check__menu">
@@ -76,7 +74,7 @@
     <section class="selecciones-secundario selecciones">
         <div class="etiquetas-juegos">
             
-            <a href="../pages/envios.html" target="_blank"><img src="../img/delivery.png" alt="imagen de delivery"></a>
+            <a href="../pages/envios.html"><img src="../img/delivery.png" alt="imagen de delivery"></a>
             <h2>ENVÍOS GRATIS</h2>
             <p>
                 En compras superiores a $5000.
@@ -84,15 +82,15 @@
         </div>
         <div class="etiquetas-juegos">
             
-            <a href="../pages/cambio-devolucion.html" target="_blank"><img src="../img/return-box.png" alt="imagen de devolucion"></a>
+            <a href="#"><img src="../img/return-box.png" alt="imagen de devolucion"></a>
             <h2>DEVOLUCIONES / CAMBIOS</h2>
             <p>
                 En caso de defectos de fabricación o talle mal elegido se realiza el cambio o devolucipon del dinero.
             </p>
         </div>
         <div class="etiquetas-juegos">
-    
-    <a href="../pages/servicio-cliente.html" target="_blank"><img src="../img/chat.png" alt="icono de conversacion de ayuda en linea"></a>
+            <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-contacto"
+            data-bs-whatever="@mdo"><img src="../img/chat.png" alt="imagen con enlace de ayuda en linea"></a>
     <h2>AYUDA EN LÍNEA</h2>
     <p>
     Cualquier duda se responderá a la brevedad.
@@ -206,7 +204,7 @@
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Conoce nuestras promociones bancarias desde <code><a href="#bank">*Promodiones bancarias</a></code> y aprovecha para darle un regalito a tu compañero.</div>
+                                <div class="accordion-body">Conoce nuestras promociones bancarias desde <code><a href="#bank" class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">*Promodiones bancarias</a></code> y aprovecha para darle un regalito a tu compañero.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -220,7 +218,7 @@
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">En caso de cambio, DogParadise se hace cargo del costo del envío de la devolución, por única vez. El cliente deberá abonar el costo del nuevo envío. 
-                                    Si necesita otro cambio deberá abonar los dos envíos. Para mayor informacion puedes entrar desde aqui a <code><a href="./pages/cambio-devolucion.html" target="_blank">*Cambios y devoluciones</a></code>.</div>
+                                    Si necesita otro cambio deberá abonar los dos envíos. Para mayor informacion puedes entrar desde aqui a <code><a href="#">*Cambios y devoluciones</a></code>.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -233,7 +231,7 @@
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Puedes ver tabla de talles y como tomar medidas a tu mascota desde <code><a href="./pages/medidas.html" target="_blank">*Como tomar medidas</a></code> </div>
+                                <div class="accordion-body">Puedes ver tabla de talles y como tomar medidas a tu mascota desde <code><a href="../pages/medidas.html">*Como tomar medidas</a></code> </div>
                             </div>
                         </div>
                     </div>
@@ -300,6 +298,59 @@
             </div>
         </div>
     </section>
+    <div class="modal fade" id="exampleModal-contacto" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-atencion">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title fs-5" id="exampleModalLabel">New message</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h2>Escríbenos y en breve los pondremos en contacto contigo</h2>
+        <form action="submeter-formulario.php" method="post">				
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>		
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>		
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                    </p>	  								
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>					
+            
+        </form>
+            </div>
+            <div class="modal-footer footer-atencion">
+                <button type="button" class="btn botonp-footer" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn botons-footer">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>
     </main>
     <footer class="footer-secundario" id="pie-juguetes">
         <div class="social">
@@ -321,12 +372,12 @@
         </div>
         <div class="atajos-web">
             <h2>~ ~ Mapa del Sitio ~ ~</h2>
-            <a href="../pages/medidas.html" target="_blank">Tabla de talles</a>
-            <a href="../pages/medidas.html" target="_blank">Como medir a tu mascota</a>
+            <a href="../pages/medidas.html">Tabla de talles</a>
+            <a href="../pages/medidas.html">Como medir a tu mascota</a>
             <a href="#bank" class="boton-pmb" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Formas
                 de pago</a>
             <a href="../pages/envios.html">Envios</a>
-            <a href="../pages/cambio-devolucion.html" target="_blank">Cambios y devuluciones</a>
+            <a href="#">Cambios y devuluciones</a>
             <a href="#" type="button" class="btn btn-primary" data-bs-toggle="modal"
                 data-bs-target="#exampleModal-contacto" data-bs-whatever="@mdo">Atención al Cliente</a>
         </div>

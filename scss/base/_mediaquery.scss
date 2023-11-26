@@ -4759,6 +4759,18 @@
                 }
             }
         }
+        .cartel-cf{
+            .modal-dialog{
+                .footer-cf{
+                    top: 10px;
+                }
+            }
+        }
+        .img-juegos{
+            img{
+                animation: girar-cuatro 3.6s alternate infinite ease-out;
+            }
+        }
     }
 
 
@@ -5803,6 +5815,11 @@
             .nosotros-img{
                 height: 340px;
                 top: 38px;
+            }
+        }
+        .img-juegos{
+            img{
+                animation: girar-cinco 3.6s alternate infinite ease-out;
             }
         }
     }

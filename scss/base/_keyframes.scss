@@ -251,6 +251,7 @@
         transform: rotate(150deg);
     }
 }
+
 @keyframes girar-dos
 {
     0%{
@@ -286,11 +287,24 @@
         transform: rotate(0deg);
     }
     100%{
+        left: 60%;
+        transform: rotate(450deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+}
+@keyframes girar-cinco{
+    0%{
+        left: 0;
+        transform: rotate(0deg);
+    }
+    100%{
         left: 50%;
         transform: rotate(450deg);
     }
     50%{
-        transform: rotate(150deg);
+        transform: rotate(180deg);
     }
 }
 @keyframes cambio-color

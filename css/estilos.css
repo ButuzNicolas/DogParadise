@@ -1631,10 +1631,20 @@ footer {
     left: 0;
     transform: rotate(0deg); }
   100% {
+    left: 60%;
+    transform: rotate(450deg); }
+  50% {
+    transform: rotate(180deg); } }
+
+@keyframes girar-cinco {
+  0% {
+    left: 0;
+    transform: rotate(0deg); }
+  100% {
     left: 50%;
     transform: rotate(450deg); }
   50% {
-    transform: rotate(150deg); } }
+    transform: rotate(180deg); } }
 
 @keyframes cambio-color {
   0% {
@@ -4428,7 +4438,11 @@ footer {
         margin-left: 0px; }
         .carrito-a div div .footer-carrito {
           position: relative;
-          top: 0px; } }
+          top: 0px; }
+  .cartel-cf .modal-dialog .footer-cf {
+    top: 10px; }
+  .img-juegos img {
+    animation: girar-cuatro 3.6s alternate infinite ease-out; } }
 
 @media screen and (max-width: 690px) {
   header .header-superior .menu-contenedor .titulo-dg {
@@ -5053,7 +5067,9 @@ footer {
       height: auto; }
   .acerca-nosotros .nosotros-img {
     height: 340px;
-    top: 38px; } }
+    top: 38px; }
+  .img-juegos img {
+    animation: girar-cinco 3.6s alternate infinite ease-out; } }
 
 @media screen and (max-width: 510px) {
   .carrusel-portada {
