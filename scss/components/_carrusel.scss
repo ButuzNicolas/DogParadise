@@ -1,0 +1,110 @@
+.carrusel-portada{
+    margin: auto;
+    background-color: $color-fondo;
+    width: 100%;
+    height: 735px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 18px;
+    ul{
+        display: flex;
+        position: relative;
+        width: 94%;
+        height: 700px;
+        animation: cambio 50s infinite alternate linear;
+                .carrusel-h2{
+                color: black;
+                font-family: $tipografia-carrusel-h2;
+                font-style: italic;
+                position: absolute;
+                left: 180px;
+                top: 130px;
+                font-size: 60px;
+                animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+                user-select: none;
+                }
+                div{
+                    position: absolute;
+                    animation: movimiento-nube 4s ease infinite;
+                    .img-nube{
+                        height: 350px;
+                        width: 350px;
+                        position: absolute;
+                        left: 315px;
+                        top: 340px;
+                    }
+                    .carrusel-imagenp{
+                        height: 350px;
+                        width: 350px;
+                        position: absolute;
+                        left: 315px;
+                        top: 230px;
+                    }
+                }
+        li:nth-child(1){
+            width: 100%;
+            height: 700px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-left: 100px;
+            margin-right: 180px;
+            img, .imagenes-carrusel, .imag-carrusel1{
+                @extend %img-carrusel;
+            }
+        }
+        li:nth-child(2), .carru_li2{
+            width: 94%;
+            height: 700px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-left: 100px;
+            margin-right: 130px;
+            .imagenes-carrusel{
+                @extend %img-carrusel;
+            }
+            p{
+                position: absolute;
+                width: 900px;
+                height: auto;
+                font-size: 50px;
+                border-radius: 18px;
+                color:white;
+                backdrop-filter: blur(30px);
+                background: transparent;
+                left: 134%;
+                top: 0px;
+                padding: 20px;
+                border-left: solid 5px white;
+                border-right: solid 5px white;
+            }
+        }
+        li:nth-child(3), .carru_li3{
+            width: 94%;
+            height: 700px;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-left: 100px;
+            margin-right: 180px;
+            .imagenes-carrusel{
+                @extend %img-carrusel;
+            }
+            p{
+                position: absolute;
+                width: 800px;
+                height: auto;
+                font-size: 46px;
+                backdrop-filter: blur(18px);
+                color: white;
+                top: 100px;
+                left: 262%;
+                padding: 20px;
+                border-radius: 20px;
+                border-left: solid 5px white;
+                border-right: solid 5px white;
+            }
+        }
+    }
+}

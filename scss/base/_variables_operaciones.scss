@@ -1,0 +1,144 @@
+/*----------------------VARIABLES--------------------*/
+$color-fondo:white;
+$color-primario:#006691;
+$color-secundario:#2499c7;
+$color-terciario:#B695C0;
+
+/* var titulo */
+$titulo-tipografica:'Alumni Sans Inline One';
+$size-titulo: 60px;
+/* fin var titulo */
+
+/* var carrusel */
+$tipografia-carrusel-h2: 'DM Serif Display';
+/* fin var carrusel */
+
+
+/* var cards */
+$titulo-cards: 'Lucida Sans';
+$color-boxcard: #cdb2d6;
+$color-card: white;
+$color-boton-card: #006691;
+$color-hover-btn: #2499c7;
+$color-hover-letra: white;
+$tipografia-cards: 'DM Serif Display';
+/* fin var cards */
+
+/* var nosotros */
+$nosotros-tituloh2:'DM Serif Display';
+$nosotros-colorh2: #2499c7;
+$nosotros-tituloh3:'DM Serif Display';
+$nosotros-tipografia:'Lucida Sans';
+/* fin var nosotros */
+
+/* var footer */
+$footer-color:#006691;
+$footer-titulos: white;
+$footer-tipografia-h2:'Times New Roman';
+/* fin var footer */
+
+/*--------------------------------- FIN VARIABLES ---------------------*/
+
+
+/*----------------------EXTENDS-----------------------*/
+
+%nav_a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+%img-carrusel{
+    width: 1850px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin-right: 45px;
+}
+
+%card{
+    height: 546px;
+    width: 90%;
+    margin: 5px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+%card-juguetes{
+    height: 546px;
+    width: 90%;
+    margin: 5px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+%header-bs-color{
+    background: rgb(238,174,202);
+    background: linear-gradient(101deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+%boton-bs-primero{
+    background-color: $color-terciario;
+    color: white;
+    border: solid 1px $color-terciario;
+    &:hover{
+        background-color: #ffa8d9;
+        color: white;
+        border: solid 1px #ffa8d9;
+    }
+}
+
+%boton-bs-segundo{
+    color: white;
+    background-color: $color-primario;
+    border: solid 0.5px $color-primario;
+    &:hover{
+        color: white;
+        background-color: $color-secundario;
+        border: solid 1px $color-secundario;
+    }
+}
+
+%hover-nav{
+    color: white;
+    transform: scale(1.1);
+    background: #2499c7;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 5);
+    border-radius: 8%;
+}
+
+%divisores-patita{
+    width: 450px;
+    height: 20px;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    border: 3px solid #555;
+    position: relative;
+}
+
+/*----------------------- FIN EXTENDS ---------------------*/
+
+/*----------------------- MIXINS -------------------------*/
+
+@mixin flex ($flex, $justify, $direction){
+    display: $flex;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@mixin grid ($grid, $columnas, $justify-grid){
+    display: $grid;
+    grid-template-columns: $columnas;
+    justify-content: $justify-grid;
+}

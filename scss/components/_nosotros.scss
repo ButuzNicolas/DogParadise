@@ -1,0 +1,92 @@
+.acerca-nosotros{
+    height: 650px;
+    width: 95%;
+    margin: 100px 50px 60px 50px;
+    background: 0;
+    padding: 20px;
+    border: 0px solid #000;
+    display: block;
+    flex-direction: center;
+    background-color: lightgray;
+    border-radius: 8px;
+    text-align: center;
+    user-select: none;
+    h2{
+        width: 30%;
+        margin-bottom: 30px;
+        margin-left: 30%;
+        color: $nosotros-colorh2;
+        text-align: center;
+        font-family: $nosotros-tituloh2;
+        font-style: italic;
+        font-weight: 500px;
+        font-size: 55px;
+    }
+    h3{
+        width: 30%;
+        margin-bottom: 65px;
+        margin-left: 30%;
+        font-family: $nosotros-tituloh3;
+        font-style: italic;
+        font-weight: 500px;
+        font-size: 25px;
+    }
+    ol{
+        height: 300px;
+        width: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+        margin-top: 35px;
+        li{
+            text-align: start;
+            font-size: 15px;
+            list-style: none;
+            font-family: $nosotros-tipografia;
+        }
+        .nosotros-lista-1 {
+            height: 40px;
+            width: 920px;
+            margin: 20px 0px 24px 0px;
+            font-family: $nosotros-tipografia;
+        }
+        
+        .nosotros-lista-2 {
+            height: 60px;
+            width: 1000px;
+            margin: 8px 0px 24px 0px;
+            font-family: $nosotros-tipografia;
+        }
+        
+        .nosotros-lista-3 {
+            height: 70px;
+            width: 1000px;
+            margin: 8px 0px 24px 0px;
+            font-family: $nosotros-tipografia;
+        }
+        
+        .nosotros-lista-4 {
+            height: 50px;
+            width: 950px;
+            margin: 8px 0px 18px 0px;
+            font-family: $nosotros-tipografia;
+        }
+        
+        .nosotros-lista-5 {
+            height: 50px;
+            width: 600px;
+            margin: 8px 0px 4px 0px;
+            font-family: $nosotros-tipografia;
+        }
+    }
+    .nosotros-img{
+        display: flex;
+        position: relative;
+        height: 600px;
+        width: 100px;
+        bottom: 477px;
+        left: 1200px;
+    }
+}

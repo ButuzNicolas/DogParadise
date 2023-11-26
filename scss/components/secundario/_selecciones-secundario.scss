@@ -1,0 +1,42 @@
+.selecciones-secundario{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    border-radius: 250px;
+    div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        height: 260px;
+        margin: 20px 50px;
+        background: #cdb2d6;
+        padding: 25px;
+        border-radius: 80px;
+        border-left: 10px solid white;
+        border-right: 10px solid white;
+        a{
+            width: 100%;
+            display: flex;
+            flex-direction: center;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            h2{
+                padding-top: 12px;
+                color: white;
+                padding-bottom: 15px;
+                font-family: 'Gabarito', sans-serif;
+            }
+            p{
+                color: black;
+                font-size: 18px;
+                margin: 0;
+            }
+        }
+    }
+}

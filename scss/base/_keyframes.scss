@@ -1,0 +1,365 @@
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+}
+@keyframes cambio2 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -110%;
+    }
+
+    45% {
+        margin-left: -110%;
+    }
+
+    50% {
+        margin-left: -210%;
+    }
+
+    70% {
+        margin-left: -210%;
+    }
+}
+@keyframes cambio3 {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -110%;
+    }
+
+    45% {
+        margin-left: -110%;
+    }
+
+    50% {
+        margin-left: -240%;
+    }
+
+    70% {
+        margin-left: -240%;
+    }
+}
+
+@keyframes cambio-banco {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+}
+@keyframes cambio-banco2 {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+}
+@keyframes cambio-cards {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+}
+
+@keyframes bounce-in-right {
+    0% {
+        transform: translateX(600px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    38% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    55% {
+        transform: translateX(68px);
+        animation-timing-function: ease-in;
+    }
+    72% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+    }
+    81% {
+        transform: translateX(32px);
+        animation-timing-function: ease-in;
+    }
+    90% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+    }
+    95% {
+        transform: translateX(8px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes bounce-in-left {
+    0% {
+        transform: translateX(-600px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    38% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    55% {
+        transform: translateX(-68px);
+        animation-timing-function: ease-in;
+    }
+
+    72% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+    }
+
+    81% {
+        transform: translateX(-28px);
+        animation-timing-function: ease-in;
+    }
+
+    90% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+    }
+
+    95% {
+        transform: translateX(-8px);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: translateX(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+
+@keyframes swirl-in-right-bck {
+    0% {
+        transform: rotate(540deg) scale(5);
+        transform-origin: 100% 50%;
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(0) scale(1);
+        transform-origin: 100% 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes puff-in-center {
+    0% {
+        transform: scale(2);
+        filter: blur(4px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes girar-uno
+{
+    0%{
+        left: 0;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 90%;
+        transform: rotate(270deg);
+    }
+    50%{
+        transform: rotate(150deg);
+    }
+}
+@keyframes girar-dos
+{
+    0%{
+        left: 0;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 80%;
+        transform: rotate(360deg);
+    }
+    50%{
+        transform: rotate(150deg);
+    }
+}
+@keyframes girar-tres
+{
+    0%{
+        left: 0;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 70%;
+        transform: rotate(450deg);
+    }
+    50%{
+        transform: rotate(150deg);
+    }
+}
+@keyframes girar-cuatro
+{
+    0%{
+        left: 0;
+        transform: rotate(0deg);
+    }
+    100%{
+        left: 50%;
+        transform: rotate(450deg);
+    }
+    50%{
+        transform: rotate(150deg);
+    }
+}
+@keyframes cambio-color
+{
+    0%{
+        background: $color-primario;
+        background-image: url(../img/home-dog.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 18px;
+    }
+    25%{
+        background: $color-secundario;
+        background-image: url(../img/home-dog.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 18px;
+    }
+    50%{
+        background: $color-primario;
+        background-image: url(../img/home-dog.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 18px;
+    }
+    75%{
+        background: $color-secundario;
+        background-image: url(../img/home-dog.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 18px;
+
+    }
+    100%{
+        background: $color-primario;
+        background-image: url(../img/home-dog.png);
+        background-size: 50px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 18px;
+    }
+}
+@keyframes movimiento-nube
+{
+    0%{
+        transform: translate (0, 0);
+    }
+    25%{
+        transform: translateX(30px);
+    }
+    50%{
+        transform: translateX(-60px);
+    }
+    75%{
+        transform: translateX(60px);
+    }
+    100%{
+        transform: translateX(-30px);
+    }
+}
+@keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    20% { opacity: 1.0; }
+    40% { opacity: 0.0; }
+    60% { opacity: 0.0; }
+    80% { opacity: 1.0; }
+    100% { opacity: 1.0; }
+}

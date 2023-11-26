@@ -1,0 +1,28 @@
+.patita-intermedia{
+    div:nth-child(1){
+        background: rgb(0,102,145);
+        background: linear-gradient(158deg, rgba(0,102,145,0.8435574913559174) 42%, rgba(182,149,192,0.8351541300113796) 70%);
+        @extend %divisores-patita;
+        left: 50.4%;
+        bottom: -35px;
+        animation: bounce-in-right 1.4s both;
+        margin-top: 30px;
+    }
+    &::after{
+        content: url(../img/patita.png);
+        position: relative;
+        left: 50%;
+        right: 50%;
+        bottom: 20px;
+        animation: swirl-in-right-bck 0.65s ease-out both;
+    }
+    div:nth-child(2){
+background: rgb(0,102,145);
+background: linear-gradient(158deg, rgba(182,149,192,0.8547619731486344) 42%, rgba(0,102,145,0.8435574913559174) 70%);
+        @extend %divisores-patita;
+        left: 26.8%;
+        bottom: -50px;
+        animation: bounce-in-left 1.4s both;
+        margin-bottom: 30px;
+    }
+}

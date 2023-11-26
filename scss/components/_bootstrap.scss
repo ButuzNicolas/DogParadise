@@ -1,0 +1,323 @@
+/*---------------BANCOS-------------*/
+
+
+.modal-bank{
+    width: 60%;
+    height: 800px;
+    margin-left: 450px;
+    .modal-header{
+        @extend %header-bs-color;
+        h2{
+            position: relative;
+            left: 33%;
+            font-size: 1.8rem;
+        }
+    }
+    .modal-dialog{
+        height: 600px;
+        .promo-bank{
+            width: 600px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            margin-left: -150px;
+            h2{
+                color: rgba(33, 167, 0, 0.986);
+                margin-bottom: 15px;
+                font-size: 25px;
+            }
+            p{
+                color: #00000077;
+            }
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        }
+        .promo-bank2{
+            width: 800px;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            margin-left: -150px;
+            h2{
+                font-size: 25px;
+                span{
+                    color: rgba(33, 167, 0, 0.986);
+                    font-size: 25px;
+                }
+            }
+            p{
+                color: #00000077;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+            div{
+                display: grid;
+                grid-template-columns: repeat(7,20%);
+                align-items: center;
+                img{
+                    height: 40px;
+                    width: 40px;
+                    margin-right: 25px;
+                }
+            }
+        }
+        .promo-bank3{
+            width: 800px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            margin-left: -150px;
+            h2{
+                font-size: 25px;
+                span{
+                    color: rgba(33, 167, 0, 0.986);
+                    font-size: 25px;
+                }
+            }
+            .promo-bank3__p{
+                color: #00000077;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+            .promo-bank__img3{
+                display: grid;
+                grid-template-columns: repeat(4,20%);
+                align-items: center;
+                div{
+                    height: 100px;
+                    width: 60px;
+                    margin-right: 50px;
+                    img{
+                        height: 50px;
+                        width: 50px;
+                    }
+                    p{
+                        color: rgba(33, 167, 0, 0.986);
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .modal-footer{
+        .btn{
+            @extend %boton-bs-primero;
+        }
+    }
+}
+
+
+/*--------------FIN BANCOS-------------*/
+
+/*----------------AYUDA EN LINEA------------*/
+
+.modal-atencion{
+    .modal-content{
+        .modal-header{
+            @extend %header-bs-color;
+        }
+        .modal-body{
+            h2{
+                font-size: 16px; 
+                padding-bottom: 30px;
+                color: #0e0e0e;   
+            }
+            p:nth-child(1){
+                label{
+                    display: block; 
+                    float: center; 	
+                    span{
+                        color: #ab4493; 
+                    }
+                }
+                input{
+                    background-color: #fbfbfb; 
+                    width: 408px; 
+                    height: 40px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color: #ab4493; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                    &:focus{
+                        outline:0;
+                        border: 1px solid #97d848;
+                    }
+                }
+            }
+            p:nth-child(2){
+                label{
+                    display: block; 
+                    float: center; 	
+                    span{
+                        color: #ab4493; 
+                    }
+                }
+                input{
+                    background-color: #fbfbfb; 
+                    width: 408px; 
+                    height: 40px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color: #ab4493; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                    &:focus{
+                        outline:0;
+                        border: 1px solid #97d848;
+                    }
+                }
+            }
+            p:nth-child(3){
+                label{
+                    display: block; 
+                    float: center; 	
+                    span{
+                        color: #ab4493; 
+                    }
+                }
+                input{
+                    background-color: #fbfbfb; 
+                    width: 408px; 
+                    height: 40px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color: #ab4493; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                    &:focus{
+                        outline:0;
+                        border: 1px solid #97d848;
+                    }
+                }
+            }
+            p:nth-child(4){
+                label{
+                    display: block; 
+                    float: center; 	
+                    span{
+                        color: #ab4493; 
+                    }
+                }
+                input{
+                    background-color: #fbfbfb; 
+                    width: 408px; 
+                    height: 40px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color: #ab4493; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                    &:focus{
+                        outline:0;
+                        border: 1px solid #97d848;
+                    }
+                }
+            }
+            p:nth-child(5){
+                label{
+                    display: block; 
+                    float: center; 	
+                    span{
+                        color: #ab4493; 
+                    }
+                }
+                textarea{
+                    width: 420px;
+                    &:focus{
+                        outline:0;
+                        border: 1px solid #97d848;
+                    }
+                }
+            }
+            p:nth-child(6){
+                span{
+                    color: #ab4493; 
+                }
+            }
+        }
+        .footer-atencion{
+            .botonp-footer{
+                @extend %boton-bs-primero;
+            }
+            .botons-footer{
+                @extend %boton-bs-segundo;
+            }
+        }
+    }
+}
+
+
+/*----------------FIN AYUDA EN LINEA------------*/
+
+
+/*------------------AÑADIR AL CARRITO---------------*/
+.carrito-a{
+    div{
+        div{
+            position: relative;
+            width: 800px;
+            .header-carrito{
+                @extend %header-bs-color;
+            }
+            .modal-carrito{
+                font-size: 20px;
+            }
+            .footer-carrito{
+                button:nth-child(1){
+                    @extend %boton-bs-primero;
+                }
+                button:nth-child(2){
+                    @extend %boton-bs-segundo;
+                }
+            }
+        }
+    }
+}
+
+/*------------------FIN AÑADIR AL CARRITO---------------*/
+
+/*------------------CONSULTAS FRECUENTES---------------*/
+.cartel-cf{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    .modal-dialog{
+        .modal-content{
+            .header-cf{
+                @extend %header-bs-color;
+            }
+        }
+        .footer-cf{
+            button:nth-child(1){
+                @extend %boton-bs-primero;
+            }
+            button:nth-child(2){
+                @extend %boton-bs-segundo;
+            }
+        }
+    }
+}
+
+/*------------------FIN CONSULTAS FRECUENTES---------------*/
